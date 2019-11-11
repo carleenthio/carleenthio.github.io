@@ -1,0 +1,17 @@
+.brand{
+    font-size: 25px;
+    color: blue;
+    /* align-self: center; */
+}
+.Navbar-brand {
+    color: #d6d6d6;
+}
+.nav-links{
+    padding-right: 2em;
+    font-size: 18px;
+    color: gray;
+    /* align-self: center; */
+}
+.Navbar{
+    background: black;
+}

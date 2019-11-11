@@ -1,0 +1,10 @@
+.grid-container{
+    margin-top: 5%;
+}
+.nav-grid{
+    width: 30%;
+    /* height: 5cm; */
+    float: left;
+    margin: 1.66%;
+    text-align: center;
+}
