@@ -15,3 +15,6 @@
 .Navbar{
     background: black;
 }
+.navbar-light .navbar-brand {
+    color: gray;
+}

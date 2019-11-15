@@ -9,7 +9,9 @@ import Mainpage from './components/mainpage'
 import Navigationbar from './components/navigationbar'
 import Hobbies from './components/hobbies'
 import Projects from './components/projects'
+import About from './components/about'
 import Fudger from './projects/fudger'
+import BrickBreaker from './projects/brick-breaker'
 class Main extends React.Component { 
   render() {
     return (
@@ -22,7 +24,9 @@ class Main extends React.Component {
           <Route path="/mainpage" component={Mainpage} />
           <Route path="/projects" component={Projects} />
           <Route path="/hobbies" component={Hobbies} />
+          <Route path="/about" component={About} />
           <Route path="/fudger" component={Fudger} />
+          <Route path="/brick-breaker" component={BrickBreaker} />
           </Switch>
         </Router>
         

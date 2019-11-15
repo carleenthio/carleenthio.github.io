@@ -1,0 +1,30 @@
+/* body{
+    background-image: url('../pictures/vine2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  */
+/* } */
+.birds{
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+    margin-bottom: 1px;
+}
+p{
+    /* text-align: center; */
+}
+h4{
+    text-align: center;
+}
+.bird-p{
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+    margin-top: 0.01cm;
+    margin-bottom: 50px;
+}
+
+.content{
+    margin: 20px;
+    margin-top: auto;
+}
