@@ -12,6 +12,7 @@ import Projects from './components/projects'
 import About from './components/about'
 import Fudger from './projects/fudger'
 import BrickBreaker from './projects/brick-breaker'
+
 class Main extends React.Component { 
   render() {
     return (

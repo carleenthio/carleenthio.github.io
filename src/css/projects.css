@@ -7,4 +7,10 @@
     float: left;
     margin: 1.66%;
     text-align: center;
+    color: black;
+    /* font-size: 19px; */
+}
+
+.img-grid{
+    width: 100%;    
 }
