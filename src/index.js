@@ -8,7 +8,6 @@ import { Redirect } from 'react-router-dom'
 
 import Mainpage from './components/mainpage'
 import Navigationbar from './components/navigationbar'
-import Hobbies from './components/hobbies'
 import Projects from './components/projects'
 import About from './components/about'
 
@@ -29,7 +28,6 @@ class Main extends React.Component {
               <Route path="/mainpage" component={Mainpage} />
               <Redirect exact from="/" to="/mainpage"/>
               <Route path="/projects" component={Projects} />
-              <Route path="/hobbies" component={Hobbies} />
               <Route path="/about" component={About} />
               <Route path="/fudger" component={Fudger} />
               <Route path="/brick-breaker" component={BrickBreaker} />

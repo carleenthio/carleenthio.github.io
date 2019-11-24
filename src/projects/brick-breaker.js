@@ -7,7 +7,7 @@ import '../css/brick-breaker.css'
 class BrickBreaker extends React.Component {
 	render() {
 		return (
-			<Container>
+			<div>
                 <nav aria-label="breadcrumb" color='white'>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/projects">Projects</a></li>
@@ -52,7 +52,7 @@ class BrickBreaker extends React.Component {
                     </div>
                     
                     </Container>
-			</Container>
+			</div>
 		);
 	}
 }

@@ -6,7 +6,7 @@ import '../css/breadcrumb.css'
 class Fudger extends React.Component {
 	render() {
 		return (
-			<Container>
+			<div>
                 <nav aria-label="breadcrumb" color='white'>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/projects">Projects</a></li>
@@ -19,7 +19,7 @@ class Fudger extends React.Component {
                     <h2>What better way to help the environment than individually reduce food waste?</h2>
                     
                 </Container>
-			</Container>
+			</div>
 		);
 	}
 }

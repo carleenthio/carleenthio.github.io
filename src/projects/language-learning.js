@@ -8,7 +8,7 @@ import lang from '../pictures/lang-result.jpg'
 class LanguageLearning extends React.Component {
 	render() {
 		return (
-			<Container>
+			<div>
                 <nav aria-label="breadcrumb" color='white'>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/projects">Projects</a></li>
@@ -139,7 +139,7 @@ class LanguageLearning extends React.Component {
                     
 
                 </Container>
-			</Container>
+			</div>
 		);
 	}
 }

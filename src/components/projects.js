@@ -9,7 +9,7 @@ import fudger from '../pictures/fudger.jpg'
 class Projects extends React.Component {
 	render() {
 		return (
-			<Container className='contents'>
+			<div className='contents'>
 				<nav aria-label="breadcrumb" color='white'>
 					<ol class="breadcrumb">
 						<li class="breadcrumb-item active" aria-current="page">Projects</li>
@@ -31,7 +31,7 @@ class Projects extends React.Component {
 					<Link to="/mainpage" className="nav-grid">About Me </Link>
 					<Link to="/mainpage" className="nav-grid">About Me </Link>
 				</Container>
-			</Container>
+			</div>
 		);
 	}
 }
