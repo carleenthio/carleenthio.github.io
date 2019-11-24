@@ -7,10 +7,14 @@ class Mainpage extends React.Component {
   render() {
     return (
         <div className='main-container'>
-        <p>Welcome to my page. This website is designed to act as my portfolio. It is coded using React, Javascript, HTML, and CSS by yours truly.
+        <p>Welcome to my page</p>
+        <p> This website is designed to act as my portfolio. I built it using React, Javascript, 
+          Bootstrap, HTML,and CSS.
         </p>
-        <p>Yes, I am aware it is very minimal.</p>
-        <a href="projects" class="btn btn-secondary active" role="button" aria-pressed="true">Continue</a>
+        <p> If you want more info about this site, <a href="projects">click here</a></p>
+        {/* <p>And yes, I am aware it is very minimal.</p> 
+        {/* <a href="projects" class="btn btn-secondary active" role="button" aria-pressed="true">More about this site</a>
+        <a href="projects" class="btn btn-secondary active" role="button" aria-pressed="true">Continue to projects</a> */}
         </div>
         );
   }
