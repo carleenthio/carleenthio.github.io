@@ -18,3 +18,10 @@
 .navbar-light .navbar-brand {
     color: gray;
 }
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #00796B; 
+  }
+  a:hover{
+    color:#00796B; 
+    opacity: 70%; 
+  }

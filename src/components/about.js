@@ -21,6 +21,9 @@ class About extends React.Component {
 	render() {
 		return (
 			<div className='content'> 
+                <hr align='left'/>
+                <h2 >About Me</h2>
+                <hr align='left'/>
                 <h3>Who am I?</h3>
                 <p>A recent Cognitive Science and Linguistic graduate from University of Toronto, 
                     who has always enjoys doing and trying out different things
@@ -34,7 +37,7 @@ class About extends React.Component {
 				<p>In my spare time, I enjoy doing a lot of different things. Here's the top 3 things that I have been enjoying:</p>
                     <ol>
                         <li>        
-                            <p>My birds. They hang out with me outside the cage. 
+                            <p><strong> My birds.</strong> They hang out with me outside the cage. 
                                 And when it's not cold, you might even catch Valkyrie and I going for walks downtown!
                                 Sometimes I'm building them new toys, creating a new meal plan for them, or teaching them new tricks.
                             </p>
@@ -48,7 +51,7 @@ class About extends React.Component {
                             </container>
                         </li>
                         <li>
-                            <p> Plants. I'm a huge plant collector. Currently with at least 130 different species.
+                            <p> <strong>Plants.</strong> I'm a huge plant collector. Currently with at least 130 different species.
                                 The last picture alone had around 18 plants in it (which has now increased to 25). 
                                 An extensive amount of research has gone through meeting each plants requirements, 
                                 as well as finding a soil-free medium to grow them in 
@@ -72,7 +75,7 @@ class About extends React.Component {
                             </container>
                         </li>
                         <li>
-                        <p> Something crafty. It could be crocheting one day, and maybe building a paludarium another</p>
+                        <p> <strong>Something crafty.</strong> It could be crocheting one day, and maybe building a paludarium another</p>
         
                         </li>
                     </ol>

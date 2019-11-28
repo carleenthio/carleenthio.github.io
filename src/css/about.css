@@ -11,11 +11,10 @@
     margin-bottom: 1px;
     margin-top:1px;
 }
-p{
-    /* text-align: center; */
-}
-h4{
-    text-align: center;
+
+h3{
+    color: #00796B;
+    font-size: 22px;
 }
 .bird-p{
     float: left;
@@ -35,4 +34,19 @@ h4{
     margin: 1%;
     margin-bottom: 2%;
     margin-top:1px;
+}
+
+.content hr{
+    width: 50%;
+    border: 2px solid #00796B;
+    opacity: 40%;
+   
+}
+.content h2{
+    color:#00796B;
+    /* opacity: 40%; */
+}
+.content strong{
+    color:#00796B;
+    opacity: 60%;
 }
