@@ -23,15 +23,11 @@ class About extends React.Component {
 			<div className='content'> 
                 <h3>Who am I?</h3>
                 <p>A recent Cognitive Science and Linguistic graduate from University of Toronto, 
-                    who has always enjoys doing and trying out different things. Next few stuff to try out:
-                    <ul>
-                        <li> pottery </li>
-                        <li> </li>
-                    </ul>
+                    who has always enjoys doing and trying out different things
                 
                 </p>
                 <h3>Where am I?</h3>
-                <p>Currently located in Toronto, Canada. </p>
+                <p>Currently located in Toronto, Canada </p>
                 <h3>How am I?</h3>
                 <p>???</p>
                 <h3>What else do I do?</h3>
@@ -41,7 +37,6 @@ class About extends React.Component {
                             <p>My birds. They hang out with me outside the cage. 
                                 And when it's not cold, you might even catch Valkyrie and I going for walks downtown!
                                 Sometimes I'm building them new toys, creating a new meal plan for them, or teaching them new tricks.
-                                One even know to give a 'paw' shake. 
                             </p>
                             <container className='bird-container'>
                                 <img className='birds' src={birdie}/>

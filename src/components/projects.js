@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container'
 import '../css/projects.css'
 import brick from '../pictures/brick-breaker.jpg'
 import lang from '../pictures/language.jpg'
-import fudger from '../pictures/fudger.jpg'
+import fudger from '../pictures/axure.jpg'
 
 class Projects extends React.Component {
 	render() {
