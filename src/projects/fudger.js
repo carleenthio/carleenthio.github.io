@@ -6,12 +6,13 @@ import Card from 'react-bootstrap/Card'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import { useState } from 'react'
+import '../css/projects.css'
 
 import design from '../pictures/design-process.png'
 class Fudger extends React.Component {
 	render() {
 		return (
-			<div>
+			<div className="fudger">
                 <nav aria-label="breadcrumb" color='white'>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/projects">Projects</a></li>
@@ -25,11 +26,13 @@ class Fudger extends React.Component {
                     <p>Some backgroound story maybe?</p>
 
                     <h2>Objective</h2>
+                    <hr></hr>
                     <p>Design a digital intervention that helps users streamline their grocery shopping 
                         experience by allowing users to be able to look up what food they have, 
                         effectively helping to mitigate over-purchasing food items. </p>
 
                     <h2>Result</h2>
+                    <hr/>
                     <p>Our prototype was built using Axure RP 9 and can be accessed
                          <a href="https://fqqihb.axshare.com/"> here</a>.</p>
 

@@ -1,7 +1,8 @@
-.grid-container{
-    margin-top: 5%;
+/* For project.js */
+.projects .grid-container{
+    margin-top: 3%;
 }
-.nav-grid{
+.projects .nav-grid{
     width: 30%;
     /* height: 5cm; */
     float: left;
@@ -11,7 +12,27 @@
     /* font-size: 19px; */
 }
 
-.img-grid{
+.projects .img-grid{
     width: 100%;  
     padding-bottom: 12px;  
+}
+/* For brick-breaker.js */
+.brick-breaker .game{
+    width:960px;
+    height:600px;
+    border:0;
+}
+.brick-breaker .info-sheet{
+    border: 1px solid black;
+}
+
+/* For Fudger */
+.fudger hr{
+    /* width: 50%; */
+    margin-left: 0px;
+}
+
+.fudger *{
+    text-align: justify;
+
 }

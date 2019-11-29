@@ -20,19 +20,19 @@ import p10 from '../pictures/p10.JPG'
 class About extends React.Component {
 	render() {
 		return (
-			<div className='content'> 
+			<div className='about'> 
                 <hr align='left'/>
                 <h2 >About Me</h2>
                 <hr align='left'/>
                 <h3>Who am I?</h3>
                 <p>A recent Cognitive Science and Linguistic graduate from University of Toronto, 
-                    who has always enjoys doing and trying out different things
-                
+                    who has always enjoys doing and trying out different things. I've done a fair share
+                    of programming projects, along with several research projects 
+                    (one of them being a UX project).
                 </p>
-                <h3>Where am I?</h3>
-                <p>Currently located in Toronto, Canada </p>
-                <h3>How am I?</h3>
-                <p>???</p>
+                <p> Currently project: A UX side project with a friend targeting the plant and trade community  </p>
+                <p> Location: Toronto, Canada </p>
+                
                 <h3>What else do I do?</h3>
 				<p>In my spare time, I enjoy doing a lot of different things. Here's the top 3 things that I have been enjoying:</p>
                     <ol>
@@ -41,16 +41,17 @@ class About extends React.Component {
                                 And when it's not cold, you might even catch Valkyrie and I going for walks downtown!
                                 Sometimes I'm building them new toys, creating a new meal plan for them, or teaching them new tricks.
                             </p>
-                            <container className='bird-container'>
+                            <div className='bird-container'>
                                 <img className='birds' src={birdie}/>
                                 <img className='birds' src={valkyrie}/>
                                 <img className='birds' src={jammy} />
                                 <p className='bird-p'>Birdie. Troublemaker. Broody.</p>
-                                <p className='bird-p'>Valkyrie. <em>My</em> shoulder bird. Dog in disguise.</p>
+                                <p className='bird-p'>Valkyrie. Dog in disguise.</p>
                                 <p className='bird-p'>Jammy. Won't leave you alone. Ever.</p>
-                            </container>
+                            </div>
                         </li>
                         <li>
+                            <container>
                             <p> <strong>Plants.</strong> I'm a huge plant collector. Currently with at least 130 different species.
                                 The last picture alone had around 18 plants in it (which has now increased to 25). 
                                 An extensive amount of research has gone through meeting each plants requirements, 
@@ -61,6 +62,7 @@ class About extends React.Component {
                                  as my medium, and three solution additives to ensure they meet the water parameters and
                                  get all the nutrients needed to stay healthy. Or four if I'm acclimating them to the new setup.
                             </p>
+                            </container>
                             <container className='bird-container'>
                                 <img className='plant' src={p1}/>
                                 <img className='plant' src={p4}/>

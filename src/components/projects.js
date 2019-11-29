@@ -9,7 +9,7 @@ import fudger from '../pictures/axure.jpg'
 class Projects extends React.Component {
 	render() {
 		return (
-			<div className='contents'>
+			<div className='projects'>
 				<nav aria-label="breadcrumb" color='white'>
 					<ol class="breadcrumb">
 						<li class="breadcrumb-item active" aria-current="page">Projects</li>

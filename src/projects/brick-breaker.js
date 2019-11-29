@@ -2,12 +2,12 @@ import React from 'react'
 import { BrowserRouter as Router, Link, Route } from "react-router-dom"
 import Container from 'react-bootstrap/Container'
 import '../css/breadcrumb.css'
-import '../css/brick-breaker.css'
+import '../css/projects.css'
 
 class BrickBreaker extends React.Component {
 	render() {
 		return (
-			<div>
+			<div className='brick-breaker'>
                 <nav aria-label="breadcrumb" color='white'>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/projects">Projects</a></li>
