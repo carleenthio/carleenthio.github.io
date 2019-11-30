@@ -12,7 +12,7 @@ import Projects from './components/projects'
 import About from './components/about'
 
 // Projects
-import Fudger from './projects/fudger'
+import Fudger from './projects/fudger/fudger'
 import BrickBreaker from './projects/brick-breaker'
 import LanLearn from './projects/language-learning'
 

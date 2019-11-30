@@ -62,10 +62,10 @@ class LanguageLearning extends React.Component {
                         <Table responsive>
                             <thead>
                                 <tr>
-                                <th></th>
-                                <th>Field Study</th>
-                                <th>Interview (Informal)</th>
-                                <th>Survey</th>
+                                <td></td>
+                                <td>Field Study</td>
+                                <td>Interview (Informal)</td>
+                                <td>Survey</td>
                                 </tr>
                             </thead>
                             <tbody>

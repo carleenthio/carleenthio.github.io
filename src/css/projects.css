@@ -12,6 +12,17 @@
     /* font-size: 19px; */
 }
 
+/* Breadcrumb */
+.breadcrumb-item.active {
+    color: black;
+}
+.breadcrumb li a    {
+    color: grey;
+}
+.breadcrumb{
+    background: white;
+}
+
 .projects .img-grid{
     width: 100%;  
     padding-bottom: 12px;  
@@ -22,17 +33,59 @@
     height:600px;
     border:0;
 }
+
 .brick-breaker .info-sheet{
     border: 1px solid black;
 }
 
 /* For Fudger */
 .fudger hr{
-    /* width: 50%; */
-    margin-left: 0px;
+    border: 1px solid rgb(220,220,220,0.7);
+    /* border: 1px solid rgb(27,170,80,0.4); */
 }
 
 .fudger *{
     text-align: justify;
+}
 
+.fudger .design-process{
+    padding-bottom: 1.5%;
+}
+.fudger a{
+    /* color:black; */
+    color: #00796B;
+}
+
+.fudger .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color:#1EBB58;
+}
+.fudger a:hover{
+    color: #1EBB58;
+}
+
+.define-icon{
+    font-size: 30px;
+    color: #1EBB58;
+    
+}
+
+.persona-img{
+  width: 45px;
+}
+
+.define-scene{
+    font-size: 30px;
+    color: #1EBB58;
+    margin-right: 20px ;
+}
+
+.div-scene{
+    display: flex;
+    /* padding-bottom: 2px; */
+
+}
+/* Find a more elegant solution.scenario for Alice is always 3.75px off for some reason */
+.odd-one{ 
+    padding-left: 3.75px;
+    padding-bottom: 3.75px;
 }
