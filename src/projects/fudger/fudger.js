@@ -12,6 +12,7 @@ import Design from './design.js'
 import Develop from './develop.js'
 
 import design from '../../pictures/design-process.png'
+import diamond from '../../pictures/diamond-design.png'
 class Fudger extends React.Component {
 	render() {
 		return (
@@ -65,12 +66,15 @@ class Fudger extends React.Component {
                     
                     <h2>Design Process</h2>
                     <hr/>
-                    <p> We used the double diamond design process on this project. 
+                    {/* <div display="block" text-align="center"> */}
+                        <img className='design-process' src={diamond} width="60%"/>
+                    {/* </div> */}
+                    <p> We used the <strong> Double Diamond design process</strong> on this project. 
                         This design process consist of diverging and converging ideas to get 
                         to a solution at four stages; discover, define, develop and deliver. 
                         Below are the methods we used at each stage.</p>
 
-                        <img className='design-process' src={design} width="100%"/>
+                        <img className='design-process' src={design} width="90%"/>
                        
                      <ControlledTabs />
                     <hr/>

@@ -68,7 +68,12 @@
     color: #1EBB58;
     
 }
-
+.design-process{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 80%; */
+}
 .persona-img{
   width: 45px;
 }
