@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Link, Route } from "react-router-dom"
 import Container from 'react-bootstrap/Container'
 import '../css/breadcrumb.css'
 import '../css/projects.css'
+import { Table } from 'react-bootstrap'
 
 class BrickBreaker extends React.Component {
 	render() {
@@ -18,21 +19,29 @@ class BrickBreaker extends React.Component {
                 {/* page content */}
                 <Container>
                     <h3>Brick Breaker: A Shot at Game Development</h3>
-                    <div className='info-sheet'> 
-                        <p>Quick Info Sheet</p>
-                        <ul>
-                            <li>Started on June 2016. Ended that June too (with minor updates in 2018 and 2019).</li>
-                            <li>Built using Unity version 2018.3.12f1. Currently hosted by SIMMER.io. </li>
-                            <li>Coded in C#.</li>
-                        </ul>
-                    </div>
+                    <Table className='info-sheet'>
+                        <th>
+                            Quick Info Sheet
+                            
+                        </th>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Started on June 2016. Ended that June too (with minor updates in 2018 and 2019).</li>
+                                    <li>Built using Unity version 2018.3.12f1. Currently hosted by SIMMER.io. </li>
+                                    <li>Coded in C#.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </Table>
+            
                     <div>
                         <p>This was not the first game I created in Unity. The first was a little text-based adventure, just to get acquainted with Unity.
-                            After that, this game was made for the purpose of exploring Unity a deeper. Sadly, it's as far as I have explored in Unity. 
+                            After that, this game was made for the purpose of exploring Unity deeper. Unfortunately, it's as far as I have explored in Unity. 
                         </p>
-                        <p>I also spent too much time on the visual, before giving up after selecting font and colour of the title page.
-                        </p>
-                        <p>It was never meant to be a full game, but instead a proof of concept. 
+                        {/* <p>I also spent too much time on the visual, before giving up after selecting font and colour of the title page.
+                        </p> */}
+                        <p>It was never meant to be a full game, but instead <span> a proof of concept.</span>
                             Therefore, it lacks certain features, which is not limited to:
                             <ul>
                                 <li>An introduction/explanation of the game</li>

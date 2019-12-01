@@ -34,10 +34,17 @@
     border:0;
 }
 
-.brick-breaker .info-sheet{
-    border: 1px solid black;
+.brick-breaker  th{
+    color: rgb(92, 178, 221);
 }
 
+.brick-breaker .info-sheet{
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.brick-breaker span{
+    color: rgb(92, 178, 221)
+}
 /* For Fudger */
 .fudger hr{
     border: 1px solid rgb(220,220,220,0.7);
