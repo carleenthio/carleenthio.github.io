@@ -18,6 +18,9 @@ function Discover() {
             <p>
                 Once we identified out goal, we conducted primary user research. 
             </p>
+            <p className="quote">
+                "About 38% of people have a grocery list with them"
+            </p>
             <p> This included the field research, interview and questionnaire. 
                 For each of these, two members were in charge but we prepped
                  the questions together as a team.

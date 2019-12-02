@@ -85,7 +85,7 @@ class Fudger extends React.Component {
 }
 
 function ControlledTabs() {
-    const [key, setKey] = useState('define');
+    const [key, setKey] = useState('design');
   
     return (
       <Tabs id="controlled-tab-example" activeKey={key} onSelect={k => setKey(k)}>

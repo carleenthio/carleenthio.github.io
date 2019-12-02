@@ -10,7 +10,7 @@ import Mainpage from './components/mainpage'
 import Navigationbar from './components/navigationbar'
 import Projects from './components/projects'
 import About from './components/about'
-
+import resume from './components/resume'
 // Projects
 import Fudger from './projects/fudger/fudger'
 import BrickBreaker from './projects/brick-breaker'
@@ -32,6 +32,7 @@ class Main extends React.Component {
               <Route path="/fudger" component={Fudger} />
               <Route path="/brick-breaker" component={BrickBreaker} />
               <Route path="/language-learning" component={LanLearn} />
+              <Route path="/resume" component={resume}/>
             </Switch>
           </Router>
         </div>
