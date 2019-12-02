@@ -28,9 +28,7 @@ class Projects extends React.Component {
 						<img className='img-grid' src={brick}/>
 						Brick Breaker: A Shot at Game Development
 					</Link>
-					<Link to="/mainpage" className="nav-grid">About Me </Link>
-					<Link to="/mainpage" className="nav-grid">About Me </Link>
-				</Container>
+					</Container>
 			</div>
 		);
 	}

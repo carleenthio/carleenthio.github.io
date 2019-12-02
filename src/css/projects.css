@@ -73,6 +73,9 @@
 .fudger a:hover{
     color: #1EBB58;
 }
+.fudger .bread-crumb-a:hover{
+    color:grey;
+}
 
 .define-icon{
     font-size: 30px;

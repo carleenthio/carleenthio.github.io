@@ -5,7 +5,7 @@ import '../css/breadcrumb.css'
 import '../css/projects.css'
 import { Table } from 'react-bootstrap'
 
-class BrickBreaker extends React.Component {
+class BrickBreaker extends React.Component {    
 	render() {
 		return (
 			<div className='brick-breaker'>

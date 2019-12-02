@@ -19,7 +19,7 @@ class Fudger extends React.Component {
 			<div className="fudger">
                 <nav aria-label="breadcrumb" color='white'>
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="/projects">Projects</a></li>
+                        <li class="breadcrumb-item"><a  className="bread-crumb-a" href="/projects">Projects</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Füdger</li>
                     </ol>
                 </nav>

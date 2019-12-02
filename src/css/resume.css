@@ -1,0 +1,36 @@
+.resume *{
+    margin-top: "10px";
+    display : "grid"; 
+    justify-content : "center";
+    text-align: "center";
+    width : "100%";
+}
+
+.resume Button{
+    width: 8cm;
+    background-color: grey;
+    color:white;
+}
+
+.resume .btn-secondary:hover {
+    /* background-color: #00796B; */
+}
+
+.resume a{
+    text-align: right;
+    color: gray;
+    font-size: 16px;
+}
+.resume a:hover{
+    color: black;
+}
+/* .react-pdf__Page__canvas{
+    height: 100%;
+    width: 80%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.react-pdf__Page__textContent{
+    right: 0px;
+} */
