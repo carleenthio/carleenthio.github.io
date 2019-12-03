@@ -11,6 +11,7 @@ import Define from './define.js'
 import Design from './design.js'
 import Develop from './develop.js'
 
+import f1  from '../../pictures/final-screen.png'
 import design from '../../pictures/design-process.png'
 import diamond from '../../pictures/diamond-design.png'
 class Fudger extends React.Component {
@@ -26,8 +27,18 @@ class Fudger extends React.Component {
 
                 <Container>
                     <h1>Füdger: A UX Research/Design Project</h1>
-                    <h2>What better way to help the environment than individually reduce food waste?</h2>
-                    <p>Some backgroound story maybe?</p>
+                    {/* <h2>What better way to help the environment than individually reduce food waste?</h2> */}
+                    <p>
+                        Food waste is a global issue that has plagued modern society. It doesn't happen because of a 
+                        decision at the kitchen bin, rather throughout the stages of food 
+                        provisioning - including planning, shopping, storage, food preparation, cooking, 
+                        gardening, dealing with leftovers and clearing up.
+                    </p>
+                    <p> 
+                        The goal of our research is to better understand and distinguish those factors 
+                        that cause individuals to waste food and create a solution that could help mitigate food waste.
+                    </p>
+                    
 
                     <h2>Objective</h2>
                     <hr/>
@@ -37,9 +48,29 @@ class Fudger extends React.Component {
 
                     <h2>Result</h2>
                     <hr/>
-                    <p>Our prototype was built using Axure RP 9 and can be accessed
-                         <a href="https://fqqihb.axshare.com/"> here</a>.</p>
+                    <p>
+                        Our prototype was built using Axure RP 9 and can be accessed
+                        <a href="https://fqqihb.axshare.com/"> here</a>.
+                        <img className='design-process' src={f1} width="100%"/>
+                        There are three main pages:
+                        <ol> 
+                            <li>
+                                Homepage : An overview of food user has the most
+                                <p> Feature -> Gamification, tips and tricks</p>
+                            </li>
+                            <li>
+                                Inventory: Keep track of what you have at home
+                                <p>Feature -> Search by category, add item, info icon to understand what the colours mean</p>
 
+                            </li>
+                            <li>
+                                Grocery: A grocery list
+                                <p>Feature -> Creates a list, ability to move bought item into inventory (no need for manual addition)</p>
+
+                            </li>
+                        </ol>
+                    </p>
+                   
                     <h3>My Role</h3>
                     <p>This project was done with a team of 6 students from varying backgrounds. 
                         We all participated at every stage of the process. 

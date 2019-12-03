@@ -4,9 +4,14 @@ import Container from 'react-bootstrap/Container'
 import '../../css/breadcrumb.css'
 import '../../css/projects.css'
 import ReactPlayer from 'react-player'
-
-
 import { Player } from 'video-react';
+
+// images
+import home  from '../../pictures/homepage.png'
+import grocery  from '../../pictures/fudger-grocery.png'
+import inventory  from '../../pictures/fudger-inventory.png'
+import additional  from '../../pictures/fudger-additionals.png'
+
 function Design() {
     return(
         <div className='design'>
@@ -88,7 +93,90 @@ function Design() {
             
             <h3>High-fidelity Prototype</h3>
             <hr/>
+            <p>
+                After the version 1.0 of the prototype was created, we ran a usability 
+                test with a few UX experts and fellow classmates, and updated the prototype accordingly. 
+                While generally some screens goes through one iterations, some has gone through three.
+            </p>
+            <p>
+                These are the progression of changes made in the hi-fi prototype
+                based on feedback and observations 
+            </p>
+            <img className='design-process' src={home} width="100%"/>
+            <p>
+                Motivation and Changes in the Homepage
+                <ol>
+                    <li>
+                        Colours in the table were confusing 
+                        -> Remove the colours
+                    </li>
+                    <li>
+                        Too many items on the table 
+                        -> Only show the items they needs to be used up soon 
+                    </li>
+                    <li>
+                        Unclear which page they are on 
+                        -> Highlighted which tab/page is active 
+                        (this goes for the entire app, i.e all the other pages too)
+                    </li>
+                    <li>
+                        Added gamification (expanded later on)
+                    </li>
+                </ol>
+            </p>
 
+            <img className='design-process' src={inventory} width="100%"/>
+            <p>
+                Motivation and Changes in the Inventory 
+                <ol>
+                    <li> 
+                        Add item button was invisible (experts had difficulty finding it) 
+                        -> Make it a different shape and colour than the general scheme of the app (rounded)
+                    </li>
+                    <li>
+                        High possibility to accidentally add/subtract item amount 
+                        -> Have to click image to change quantity
+                    </li>
+                    <li>
+                        Search bar unclear 
+                        -> Add placeholder text
+                    </li>
+                </ol>
+            </p>
+
+            <img className='design-process' src={grocery} width="100%"/>
+            <p>
+                Motivation and Changes in the Grocery
+                <ol>
+                    <li>
+                        Users confused on what to input 
+                        -> Changed placeholder text (From “List name” to “Title”)
+                    </li>
+                    <li>
+                        Make list was primary task, not a secondary task 
+                        -> Add the option somewhere less distracting
+                    </li>
+                </ol>
+            </p>
+
+            <img className='design-process' src={additional} width="100%"/>
+            <p>
+                Additional Changes
+                <ol>
+                    <li>
+                    Tooltip: We added a tooltip to ensure new users will not get confused. 
+                        <p>
+                            At first, too many words. So now less words.
+                        </p>
+                    </li>
+                    <li>
+                    Gamification:
+                    <p>
+                        Gave users basic rewards such as Tim hortons card and Walmart gift card
+                    </p>
+                    </li>
+                </ol>
+            </p>
         </div>
     )
 }

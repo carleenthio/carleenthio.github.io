@@ -18,7 +18,8 @@ class Projects extends React.Component {
 				<Container className='grid-container'>
 					<Link to="/fudger" className="nav-grid">
 						<img className='img-grid' src={fudger}/>
-						Füdger 
+						Füdger: Inventory & Grocery Tracker
+						<p style={{color:'grey'}} >A UX Project</p>
 					</Link>
 					<Link to="/language-learning" className="nav-grid">
 						<img className='img-grid' src={lang}/>
