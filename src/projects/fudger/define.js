@@ -10,16 +10,16 @@ function Define() {
     return(
 			<div className='define'>
                 <p>This stage was the beginning of fleshing out our design, 
-                identifying what is required and how it should function. 
-                In our (short form creative brief), we identified 2 key persona and 
+                identifying what is required, and how it should function. 
+                In our short form creative brief we identified 2 key persona and 
                 3 key scenarios, as well as outlining our objectives and key principles. 
-                A task analysis was also created on <a href="draw.io">draw.io</a> to outline how user will 
+                A task analysis hierarchy was also created on <a href="https://www.draw.io" target="_blank">draw.io</a> 
+                &nbsp;to outline how a user would 
                 complete specific tasks. </p>
 
                 <h3>Personas</h3>
                 <p>
-                    These two personas are fictional users that personifies our users.
-                    Our prototype was designed with these users in mind 
+                    Our prototype was designed with the following fictional users in mind. 
                 </p>
                 <table className="personas">
                     <tr>
@@ -35,17 +35,17 @@ function Define() {
                         <td> 
                             <ul>
                                 <li> Works a 9 to 5 job </li>
-                                <li>Lives with her domestic partner, her mother 
-                                    and 2 children, aged 17 and 22. </li>
+                                <li>Lives with her domestic partner, mother, 
+                                    and 2 children (aged 17 and 22)</li>
                                 <li> Busy schedule; goes to gym 3 times a week and spends time 
-                                     amongst her various hobbies.</li>
+                                     amongst her various hobbies</li>
                                 <li> Very conscious of how much food her family is wasting and 
-                                feels guilty when she sees meals going to waste. 
+                                feels guilty when food ends up in the bin
                                 </li>
                                 <li>
                                 Tries to prepare meals for her family, but 
                                 occasionally unsure of how much food to buy or 
-                                make as her eldest child eats out during the week sporadically. 
+                                make as her eldest child eats out during the week sporadically
                                 </li>
                             </ul>
                         </td>
@@ -65,9 +65,9 @@ function Define() {
                         <td> 
                             <ul>
                                 <li> The type of person who only buys what he needs </li>
-                                <li> Always seems to go to the grocery store.</li>
+                                <li> Always seems to go to the grocery store</li>
                                 <li> Lives alone </li>
-                                <li> Works at home  </li>
+                                <li> Works from home  </li>
                                 <li> Always cooks for his dates </li>
                                 <li> Always aware of his budget</li>
 
@@ -79,7 +79,7 @@ function Define() {
 
                 <h3> Scenarios</h3>
                 <p>
-                    The scenarios created for this project was used to help the team
+                    The scenarios created for this project were used to help the team
                     keep in mind what goals we are trying to achieve. It provides us
                     with an idea of what might motivate the user when 
                     they interact with our product.
@@ -106,10 +106,10 @@ function Define() {
                 <div className="div-scene">
                     <FontAwesomeIcon icon={faRunning} className="define-scene"/>
                     <p>
-                    Chad is in a rush and just went out to the grocery to store to buy some
-                    ingredients, but midway of cooking, he realises he forgot something.
+                    Chad is in a rush and just went out to the grocery store to buy some
+                    ingredients, but midway through cooking, he realizes he forgot something.
                     So he goes back to the store to pick up the item and saw another item he 
-                    needed, but is unsure if he has already bought it earlier or not.
+                    needed, but is unsure if he already bought it earlier.
                     </p>
                 </div>
                 

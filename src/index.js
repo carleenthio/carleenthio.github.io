@@ -19,8 +19,7 @@ import LanLearn from './projects/language-learning'
 class Main extends React.Component { 
   render() {
     return (
-      <div className="page_container">
-        <div className="main w3-padding-large">
+        <div className="main">
           <Router>
             <Navigationbar/>
             <Switch>
@@ -36,7 +35,6 @@ class Main extends React.Component {
             </Switch>
           </Router>
         </div>
-      </div>
     )
   }
 }

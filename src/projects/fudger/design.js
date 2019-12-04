@@ -11,96 +11,110 @@ import home  from '../../pictures/homepage.png'
 import grocery  from '../../pictures/fudger-grocery.png'
 import inventory  from '../../pictures/fudger-inventory.png'
 import additional  from '../../pictures/fudger-additionals.png'
-
+import paperAdd  from '../../pictures/paper-add.JPG'
+import paperGrocery  from '../../pictures/paper-grocery.JPG'
+import paperInventory  from '../../pictures/paper-inventory.JPG'
 function Design() {
     return(
         <div className='design'>
-            <p> This stage took the bulk of our effort, consisting of a paper prototype 
-            (low fidelity), and a high fidelity prototype (with 3 iterations). 
+            <p> This stage took the bulk of our effort, consisting of a low fidelity (paper) prototype and a high fidelity prototype (with 3 iterations). 
             Each prototype was followed by a usability test to help us gain a 
             deeper understanding through both qualitative and quantitative 
-            information as the test involves observing, and talking to the 
-            testers afterwards, while also timing how long it took them to
-            finish each task.</p>
+            analysis, which included: observing, receiving feedback, 
+            and timing task completion.</p>
 
             <h3> My Low-Fidelity Paper Prototype</h3>
                 <hr></hr>
-                <ReactPlayer url='https://youtu.be/lnwCgkgHoTg'/>
+                <h5>The Paper Prototype</h5>
                 <p>
-                    While there are several necessary tasks/details we have decided on. 
+                    While there are several necessary features we decided on. 
                     I added a couple more in my low-fidelity prototype such as: 
                     <ul>
                         <li>
-                            Taking a picture of a receipt and items placed automatically in inventory.
+                            Taking a picture of a receipt and have the bought items entered automatically into the inventory
                             <div>
-                                Reason: Some people are too busy to input what they got, especially if it’s a long list.
+                                <b>Reason:</b> Some people are too busy and/or lazy to input what they bought, especially if it’s a long list
                             </div>
                         </li>
                         <li>
-                        Introduce a recipe finder that automatically reduce the amount of ingredients from inventory
+                            Introduce a recipe finder that automatically removes used items from the inventory based on the recipe
                             <div>
-                            Reason: Combat forgetfulness or laziness. Help use up expiring products
-                            </div>             
-                        </li>
-                        <li>
-                            Allow grocery list to be organized into sublist
-                            <div>
-                            Reason: allow memory chunking, this will help users with
-                            their cognitive load to keep in mind why and how much ingredients 
-                            they need
+                                <b>Reason:</b> Combat forgetfulness or laziness
                             </div>
                         </li>
                         <li>
-                            Expiry date generator. Creates an approximate date it should be bad
-                            based on the item and average longevity
+                            Allow recipe finder to be used on specified products
+                            <div>
+                                <b>Reason:</b> Help use up expiring products
+                            </div>
+                        </li>
+                        <li>
+                            Allow grocery list to be organized into sublists
+                            <div>
+                                <b>Reason:</b> To reduce cognitive load and organize cooking ideas
+                            </div>
+                        </li>
+                        <li>
+                            Generate approximate dates for product expiration
                         </li>
                         <li>
                             Fact of the Day
                             <div>
-                            Reason: bring awareness to shopping habits and business tricks which
-                            usually leads to an individual to over purchase
+                                <b>Reason:</b> Bring awareness of shopping habits and business tricks which
+                                usually lead to over-purchasing
                             </div>
                         </li>
                     </ul>
                 </p>
-                <h4>Result</h4>
-                <p>These were inputs gathered from the participants or from watching </p>
-                <ul>
-                    <li>
-                        Search bar needs to be more obvious
-                    </li>
-                    <li>
-                        Require an indicator whether a change has been saved or 
-                        if they need to manually click save
-                    </li>
-                    <li>
-                        Tooltip. Planned but not implemented in paper prototype
-                    </li>
-                    <li>
-                        Quantity of item left for liquids such as milk (full, 3/4 left, half full, etc)
-                    </li>
-                    <li>
-                        Allow item barcode to be scanned 
-                    </li>
-                    <li>
-                        Use at own risk” notice for the generated expiry dates
-                    </li>
-                    <li>
-                    Knew to swipe the grocery items around and that they 
-                    could swipe left to completely delete it
-                    </li>
-                </ul>
-            
+                <img className='design-process' src={paperInventory} width="70%"/>
+                <img className='design-process' src={paperAdd} width="70%"/>
+                <img className='design-process' src={paperGrocery} width="70%"/>
+                
+                <h5>Result</h5>
+                <p>
+                    Below is one of the recorded test sessions.
+                </p>
+                <ReactPlayer url='https://youtu.be/lnwCgkgHoTg'/>
+                <p>User feedback and observations:
+                    <ul>
+                        <li>
+                            Search bar needs to be more obvious
+                        </li>
+                        <li>
+                            Require an indicator whether a change has been saved
+                        </li>
+                        <li>
+                            Tooltip. Planned but not implemented in paper prototype
+                        </li>
+                        <li>
+                            Quantity of item left for liquids such as milk (full, 3/4 left, half full, etc)
+                        </li>
+                        <li>
+                            Allow item barcode to be scanned 
+                        </li>
+                        <li>
+                            "Use at own risk” notice for the generated expiry dates
+                        </li>
+                        <li>
+                            Users knew how to move the grocery items around and swipe left to completely delete them
+                        </li>
+                    </ul>
+                </p>
+                
             <h3>High-fidelity Prototype</h3>
             <hr/>
             <p>
-                After the version 1.0 of the prototype was created, we ran a usability 
-                test with a few UX experts and fellow classmates, and updated the prototype accordingly. 
-                While generally some screens goes through one iterations, some has gone through three.
+                At the end of the converging stage of the prototype, where the team looked at
+                what features to include, we designed the <strong>wireframe</strong>. And from there
+                we built the first version of our high-fidelity prototype.
             </p>
             <p>
-                These are the progression of changes made in the hi-fi prototype
-                based on feedback and observations 
+                After version 1.0, we ran a usability 
+                test with a few UX experts and fellow classmates and updated the prototype from their feedback. 
+            </p>
+            <p>
+                Below is the progression of changes made in the hi-fi prototype
+                based on feedback and observations.
             </p>
             <img className='design-process' src={home} width="100%"/>
             <p>
@@ -111,13 +125,12 @@ function Design() {
                         -> Remove the colours
                     </li>
                     <li>
-                        Too many items on the table 
-                        -> Only show the items they needs to be used up soon 
+                        Too many items in the table 
+                        -> Only show the items that need to be used up soon 
                     </li>
                     <li>
                         Unclear which page they are on 
-                        -> Highlighted which tab/page is active 
-                        (this goes for the entire app, i.e all the other pages too)
+                        -> Highlight the active tab  
                     </li>
                     <li>
                         Added gamification (expanded later on)
@@ -130,8 +143,8 @@ function Design() {
                 Motivation and Changes in the Inventory 
                 <ol>
                     <li> 
-                        Add item button was invisible (experts had difficulty finding it) 
-                        -> Make it a different shape and colour than the general scheme of the app (rounded)
+                        "Add item" button was hard to find
+                        -> Make it a different shape and colour than the general scheme of the app
                     </li>
                     <li>
                         High possibility to accidentally add/subtract item amount 
@@ -164,15 +177,16 @@ function Design() {
                 Additional Changes
                 <ol>
                     <li>
-                    Tooltip: We added a tooltip to ensure new users will not get confused. 
+                    Tooltip:
                         <p>
-                            At first, too many words. So now less words.
+                        Ensured new users will not get confused. 
+                        Decreased word count
                         </p>
                     </li>
                     <li>
                     Gamification:
                     <p>
-                        Gave users basic rewards such as Tim hortons card and Walmart gift card
+                        Gave users basic rewards to redeem on gift cards
                     </p>
                     </li>
                 </ol>

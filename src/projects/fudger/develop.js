@@ -27,13 +27,13 @@ function Develop() {
                         Visibility of system status
                     </li>
                     <li>
-                        Match between system & real world
+                        Match between system and real world
                     </li>
                     <li>
-                        User control & freedom
+                        User control and freedom
                     </li>
                     <li>
-                        Consistency & standards
+                        Consistency and standards
                     </li>
                     <li>
                         Error prevention
@@ -48,7 +48,7 @@ function Develop() {
                         Aesthetic and minimalist design
                     </li>
                     <li>
-                        Help users recognize, diagnose, & recover from errors
+                        Help users recognize, diagnose, and recover from errors
                     </li>
                     <li>
                     Help and documentation

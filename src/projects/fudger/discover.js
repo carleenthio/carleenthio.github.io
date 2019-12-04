@@ -9,21 +9,21 @@ function Discover() {
         <div className='discover'>
             <p>In the earliest stage, we did preliminary research on food waste. 
                 While food waste occurs at every stage (production, transportation, supplier, 
-                consumer), we decided to tackle the consumer stage. And once again,
-                    there were several stages in the consumer stage and decided that prevention 
+                consumer), we decided to tackle the consumer stage. The consumer stage was 
+                broken down further into several steps, from which we decided that prevention 
                 of excess food was the way to go. Therefore, we narrowed the problem 
-                space to help reduce food waste within consumers by helping 
-                them reduce overbuying food during their grocery runs.
+                space to limit food waste within consumers by helping 
+                them reduce over-purchasing during their grocery runs.
             </p>
             <p>
-                Once we identified out goal, we conducted primary user research. 
+                Once we identified our goal, we conducted primary user research. 
             </p>
-            <p className="quote">
+            {/* <p className="quote">
                 "About 38% of people have a grocery list with them"
-            </p>
-            <p> This included the field research, interview and questionnaire. 
-                For each of these, two members were in charge but we prepped
-                 the questions together as a team.
+            </p> */}
+            <p> This included the field research, interview, and questionnaire. 
+                Two members were designated for each method although the content 
+                was prepared as a team.
             </p>
         </div>
     )

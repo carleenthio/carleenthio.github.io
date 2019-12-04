@@ -30,37 +30,37 @@ class Fudger extends React.Component {
                     {/* <h2>What better way to help the environment than individually reduce food waste?</h2> */}
                     <p>
                         Food waste is a global issue that has plagued modern society. It doesn't happen because of a 
-                        decision at the kitchen bin, rather throughout the stages of food 
+                        decision at the kitchen bin, but rather throughout the stages of food 
                         provisioning - including planning, shopping, storage, food preparation, cooking, 
-                        gardening, dealing with leftovers and clearing up.
+                        gardening, dealing with leftovers, and cleaning up.
                     </p>
                     <p> 
-                        The goal of our research is to better understand and distinguish those factors 
-                        that cause individuals to waste food and create a solution that could help mitigate food waste.
+                        The goal of our research is to better understand and distinguish those different stages 
+                         and create a solution that could help mitigate food waste.
                     </p>
                     
 
                     <h2>Objective</h2>
                     <hr/>
-                    <p>Design a digital intervention that helps users streamline their grocery shopping 
-                        experience by allowing users to be able to look up what food they have, 
-                        effectively helping to mitigate over-purchasing food items. </p>
+                    <p>Design a digital experience that helps users streamline their grocery shopping 
+                        experience by allowing them to track their food inventory, 
+                        effectively mitigating the over-purchasing of food items. </p>
 
                     <h2>Result</h2>
                     <hr/>
                     <p>
-                        Our prototype was built using Axure RP 9 and can be accessed
-                        <a href="https://fqqihb.axshare.com/"> here</a>.
-                        <img className='design-process' src={f1} width="100%"/>
-                        There are three main pages:
+                        <a href="https://fqqihb.axshare.com/#g=1&p=home&c=1" target="_blank"> Our prototype</a> was built using Axure RP 9.
+                    
+                        <img className='design-process' style={{paddingTop:"5px"}} src={f1} width="100%"/>
+                        There are three main screens:
                         <ol> 
                             <li>
-                                Homepage : An overview of food user has the most
+                                Homepage: Food expiration tracker
                                 <p> Feature -> Gamification, tips and tricks</p>
                             </li>
                             <li>
                                 Inventory: Keep track of what you have at home
-                                <p>Feature -> Search by category, add item, info icon to understand what the colours mean</p>
+                                <p>Feature -> Search by category, add item, expiration colour legend</p>
 
                             </li>
                             <li>
@@ -79,30 +79,30 @@ class Fudger extends React.Component {
                             <li> Conducting field-study research</li>
                             <li> Integrating and writing most of the information in the usability study report, 
                                 specifically for the method, findings and implications section</li>
-                            <li> Editing majority of the reports to ensure conformity, flow, and ease of read</li>
-                            <li> Ensuring conformity in the prototype by checking alignments, fonts and colours</li>
+                            <li> Editing majority of the reports to ensure conformity, flow, and readability</li>
+                            <li> Ensuring conformity in the prototype by checking alignments, fonts, and colours</li>
                         </ul>
                     </p>
 
                     <h3> Scope and Constraints</h3>
                     <p>Due to this project being done concurrently with class, there wasn’t much time 
-                        to find a variety of people. So most of our participants were students, 
-                        and specifically from STEM majors. This could be a problem as that demographic 
+                        to find a variety of users. So most of our participants were students, 
+                         particularly STEM majors. This could be a problem as that demographic 
                         is more tech-savvy. 
                     </p>
                     <p>Since we had limited time to explore Axure, we also ran into a couple bugs that 
                         affected user flow and had a few functions hard-coded in the prototype. At certain
-                         times, there were server issues that resulted in the pages not 
-                         loading properly or very slowly. This resulted in some user confusion.</p>
+                         times, there were server issues that caused the pages to 
+                         load improperly or very slowly. This resulted in some user confusion.</p>
                     
                     <h2>Design Process</h2>
                     <hr/>
                     {/* <div display="block" text-align="center"> */}
                         <img className='design-process' src={diamond} width="60%"/>
                     {/* </div> */}
-                    <p> We used the <strong> Double Diamond design process</strong> on this project. 
-                        This design process consist of diverging and converging ideas to get 
-                        to a solution at four stages; discover, define, develop and deliver. 
+                    <p> We used the <strong> Double Diamond </strong> design process on this project. 
+                        This design process consists of diverging and converging ideas to get 
+                        to a solution at four stages: discover, define, develop, and deliver. 
                         Below are the methods we used at each stage.</p>
 
                         <img className='design-process' src={design} width="90%"/>
@@ -116,7 +116,7 @@ class Fudger extends React.Component {
 }
 
 function ControlledTabs() {
-    const [key, setKey] = useState('design');
+    const [key, setKey] = useState('discover');
   
     return (
       <Tabs id="controlled-tab-example" activeKey={key} onSelect={k => setKey(k)}>

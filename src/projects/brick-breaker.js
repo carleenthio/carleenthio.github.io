@@ -27,8 +27,8 @@ class BrickBreaker extends React.Component {
                         <tr>
                             <td>
                                 <ul>
-                                    <li>Started on June 2016. Ended that June too (with minor updates in 2018 and 2019).</li>
-                                    <li>Built using Unity version 2018.3.12f1. Currently hosted by SIMMER.io. </li>
+                                    <li>Bulk of the work was done in June 2016 with minor updates in 2018 and 2019.</li>
+                                    <li>Built using Unity version 2018.3.12f1. Currently hosted by SIMMER.io.</li>
                                     <li>Coded in C#.</li>
                                 </ul>
                             </td>
@@ -36,23 +36,23 @@ class BrickBreaker extends React.Component {
                     </Table>
             
                     <div>
-                        <p>This was not the first game I created in Unity. The first was a little text-based adventure, just to get acquainted with Unity.
-                            After that, this game was made for the purpose of exploring Unity deeper. Unfortunately, it's as far as I have explored in Unity. 
-                        </p>
-                        {/* <p>I also spent too much time on the visual, before giving up after selecting font and colour of the title page.
-                        </p> */}
-                        <p>It was never meant to be a full game, but instead <span> a proof of concept.</span>
-                            Therefore, it lacks certain features, which is not limited to:
+                        <p>
+                            BrickBreaker is my second project in Unity. 
+                            It was used to deepen my knowledge beyond my first attempt 
+                            - a turn-based text adventure.</p>
+                    
+                        <p>It was never meant to be a full game, but instead <span> a proof of concept. </span>
+                             Therefore, it lacks certain features, which are not limited to:
                             <ul>
                                 <li>An introduction/explanation of the game</li>
-                                <li>Bricks changing colour/texture to signify how close it is to being destroyed</li>
+                                <li>Brick colour and texture change to indicate breaking progress</li>
                                 <li>A mute option (apart from clicking away from the game)</li>
-                                <li>A level selector. i.e. a progress saver</li>
+                                <li>A level selector (i.e. a progress saver)</li>
                                 <li>More than 3 levels</li>
-                                <li>Anything that would make it more interesting, like a power-up</li>
+                                <li>Flavour features such as power-ups</li>
                                 <li>A scoreboard</li>
                             </ul>
-                            These are definitely features that could be implemented in the future if the itch for game dev returns.
+                            These are definitely features that could be implemented in the future if the itch for game development returns.
                         </p>
                     </div>
                     <div className='game-div'> 

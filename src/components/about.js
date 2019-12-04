@@ -25,8 +25,8 @@ class About extends React.Component {
                 <h2 >About Me</h2>
                 <hr align='left'/>
                 <h3>Who am I?</h3>
-                <p>A recent Cognitive Science and Linguistic graduate from University of Toronto, 
-                    who has always enjoys doing and trying out different things. I've done a fair share
+                <p>A recent Cognitive Science and Linguistic graduate from the University of Toronto, 
+                    who has always enjoyed doing and trying out different things. I've done a fair share
                     of programming projects, along with several research projects 
                     (one of them being a UX project).
                 </p>
@@ -34,13 +34,13 @@ class About extends React.Component {
                 <p> Location: Toronto, Canada </p>
                 
                 <h3>What else do I do?</h3>
-				<p>In my spare time, I enjoy doing a lot of different things. Here's the top 3 things that I have been enjoying:</p>
+				<p>In my spare time, I enjoy doing a lot of different things including hiking and boardgames.
+                    Here are the top 3 things that I have been enjoying:</p>
                     <ol>
                         <li>        
                             <p><strong> My birds.</strong> They hang out with me outside the cage. 
                                 And when it's not cold, you might even catch Valkyrie and I going for walks downtown!
-                                Sometimes I'm building them new toys, creating a new meal plan for them, or teaching them new tricks.
-                            </p>
+                           </p>
                             <div className='bird-container'>
                                 <img className='birds' src={birdie}/>
                                 <img className='birds' src={valkyrie}/>
@@ -77,12 +77,21 @@ class About extends React.Component {
                             </container>
                         </li>
                         <li>
-                        <p> <strong>Something crafty.</strong> It could be crocheting one day, and maybe building a paludarium another</p>
+                        <p> 
+                            <strong>Something crafty.</strong> This includes:
+                            <ul>
+                                <li>Cross stitching</li>
+                                <li>Creating toys for the birds</li>
+                                <li>Building a paludarium</li>
+                                <li>Waterscaping my fish tank</li>
+                                <li>Building moss poles for plants</li>
+                                <li>And other things</li>
+                            </ul>
+                        </p>
         
                         </li>
                     </ol>
-                <p>But there is also environment/season dependent activities, like hiking, and boardgames </p>
-            </div>
+                </div>
 		);
 	}
 }
