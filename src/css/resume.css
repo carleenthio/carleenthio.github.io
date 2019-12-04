@@ -20,3 +20,7 @@
 .resume a:hover{
     color: black;
 }
+.react-pdf__Page__annotations.annotationLayer{
+    width: 0px;
+    height: 10px;
+}

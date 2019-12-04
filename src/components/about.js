@@ -21,7 +21,6 @@ class About extends React.Component {
 	render() {
 		return (
 			<div className='about'> 
-                <hr align='left'/>
                 <h2 >About Me</h2>
                 <hr align='left'/>
                 <h3>Who am I?</h3>

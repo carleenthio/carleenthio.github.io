@@ -1,4 +1,14 @@
 /* For project.js */
+.projects, .brick-breaker, .fudger, .language-learning{
+    background: white;
+    height: 100%;
+    position:fixed !important;
+    position:absolute;
+    top:64px;
+    right:0;
+    bottom:0;
+    left:0;
+}
 .projects .grid-container{
     margin-top: 3%;
 }
@@ -17,6 +27,11 @@
     color: grey;
     text-decoration: none;
 }
+/* .projects-block{
+    height: 18.5cm;
+    overflow: hidden;
+    visibility: hidden;
+} */
 
 /* Breadcrumb */
 .breadcrumb-item.active {
@@ -27,6 +42,8 @@
 }
 .breadcrumb{
     background: white;
+    padding-right: 5%;
+    padding-left:5% ;
 }
 
 /* For brick-breaker.js */

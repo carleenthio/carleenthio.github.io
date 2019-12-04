@@ -49,13 +49,13 @@ class Resume extends React.Component {
     render() {
         const { pageNumber, numPages } = this.state;
         return (   
-            <div className='resume' style={{
-                marginTop: "10px",
-                display : "grid", 
-                justifyContent : "center", 
-                textAlign: "center",
-                width : "100%",
-                }}>
+            <div className='resume' 
+            style={{
+              marginTop: "10px",
+              display : "grid", 
+              justifyContent : "center", 
+              textAlign: "center",
+              width : "100%"}}>
                 
             <a href="../Resume.pdf" download>Click to download</a>
             
@@ -69,6 +69,7 @@ class Resume extends React.Component {
                 </tr>
             </table>
             </div>
+
         );
     }
 }

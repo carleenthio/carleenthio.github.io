@@ -31,6 +31,7 @@ class Projects extends React.Component {
 					</Link>
 					</Container>
 			</div>
+			
 		);
 	}
 }

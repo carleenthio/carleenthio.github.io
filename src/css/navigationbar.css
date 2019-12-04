@@ -17,4 +17,8 @@ a.nav-links.nav-link :hover{
     color:#00796B; 
     opacity: 70%; 
   }
+.navbar{
+    padding-right: 5%;
+    padding-left:5% ;
+}
 

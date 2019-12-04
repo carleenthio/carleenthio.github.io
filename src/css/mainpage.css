@@ -1,34 +1,30 @@
-/* #root {
-    background-image: url("../pictures/f1.jpg");
-    background-size: 100% 100%;
-    width: 100%;
+body, html {
     height: 100%;
-} */
-
+    margin: 0;
+    background-image: url("../pictures/f1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 .mainpage{
-    margin: auto auto; 
-    height: 100%;
-    width: 100%;
-    padding-top: 22%;
-    padding-bottom: 22%;
-    /* background-color: transparent; */
-    /* position: absolute; */
-    background-image: url("../pictures/f1.jpg");
-    background-size: 100% 100%;
-    /* top: 0px;
-    left: 0px; */
-    text-align: center;   
-    /* left:50%;
-    top:50%;
-    -webkit-transform: translate(-50%, -50%);
-     -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); */
+    text-align: center;  
+    /* centers div */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
 }
 .mainpage p{
     color:#F0F0F0;
     font-weight: bold;
+    font-size: 20px;
 }
+.mainpage p, .mainpage a{
 
+}
 .define-arrow{
     font-size: 40px;
     margin-left: 10px ;
