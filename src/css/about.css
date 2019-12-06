@@ -35,25 +35,10 @@
     opacity: 40%;
     border-color: grey; 
 }
-.about-icons{
-    width: 100%;
-    color: gray;
-}
 .about h2{
     color: gray;
-    width: 50%;
-    display:inline-block;
-}
-.about-icons span{
-    width: 50%;
-    text-align: right;
-}
-.about-icons a{
-    color: gray;
-    float: right;
-    font-size: 25px;
-    padding-left: 10px;
 }
 .about strong{
-    color: gray;
+    color:#00796B;
+    opacity: 60%;
 }

@@ -16,15 +16,14 @@ body, html {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); 
-    cursor: default;
-    /* background-color: rgba(48,48,48,0.25); */
 }
 .mainpage p{
     color:#F0F0F0;
     font-weight: bold;
-    font-size: 17px;
-    font-family: 'Source Code Pro';
-    text-shadow: 1px 0 grey, 0 1px grey, 1px 0 grey, 0 1px grey;
+    font-size: 20px;
+}
+.mainpage p, .mainpage a{
+
 }
 .define-arrow{
     font-size: 40px;
@@ -35,15 +34,14 @@ body, html {
 .define-arrow:hover{
     color: #C8F7C5;
 }
-.mainpage span{
+.mainpage a{
     display: block;
     color:#66CC99; 
     text-align: center;
     height: 44px;
     font-weight: bold;
   }
-.mainpage span:hover{
+.mainpage a:hover{
     color: #C8F7C5;
     text-decoration: none;
-    cursor: pointer;
 }

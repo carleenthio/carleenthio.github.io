@@ -1,4 +1,7 @@
 import React from 'react'
+import { BrowserRouter as Router, Link, Route } from "react-router-dom"
+import Container from 'react-bootstrap/Container'
+import '../../css/breadcrumb.css'
 import '../../css/projects.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faUserTie,faUserNurse, faHourglassHalf} from "@fortawesome/pro-duotone-svg-icons"
@@ -10,7 +13,7 @@ function Define() {
                 identifying what is required, and how it should function. 
                 In our short form creative brief we identified 2 key persona and 
                 3 key scenarios, as well as outlining our objectives and key principles. 
-                A task analysis hierarchy was also created on <a href="https://www.draw.io" target="_blank" rel="noopener noreferrer">draw.io</a> 
+                A task analysis hierarchy was also created on <a href="https://www.draw.io" target="_blank">draw.io</a> 
                 &nbsp;to outline how a user would 
                 complete specific tasks. </p>
 

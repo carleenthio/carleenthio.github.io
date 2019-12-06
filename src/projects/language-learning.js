@@ -1,9 +1,9 @@
 import React from 'react'
 import Table from 'react-bootstrap/Table'
 import Container from 'react-bootstrap/Container'
+import '../css/breadcrumb.css'
 import lang from '../pictures/lang-result.jpg'
-import { LinkContainer } from "react-router-bootstrap";
-import Breadcrumb from 'react-bootstrap/Breadcrumb'
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLink} from "@fortawesome/pro-duotone-svg-icons"
 
@@ -11,16 +11,17 @@ class LanguageLearning extends React.Component {
 	render() {
 		return (
 			<div className="language-learning">
-                <Breadcrumb>
-                    <LinkContainer to="/projects">
-                        <Breadcrumb.Item>Projects</Breadcrumb.Item>
-                    </LinkContainer>
-                    <Breadcrumb.Item active>Language Learning</Breadcrumb.Item>
-                </Breadcrumb>
+                <nav aria-label="breadcrumb" color='white'>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/projects">Projects</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Language Learning</li>
+                    </ol>
+                </nav>
+
                 {/* page content */}
                 <Container>
                     <h3>
-                        <a href='https://drive.google.com/file/d/1CCIr4wBdrV7q_IgaY9wVkWt0chnfk4Os/view' target="_blank" rel='noopener'> 
+                        <a href='https://drive.google.com/file/d/1CCIr4wBdrV7q_IgaY9wVkWt0chnfk4Os/view' target="_blank"> 
                         Language Learning Strategized
                         <FontAwesomeIcon style={{paddingLeft:"5px"}} className="define-icon" icon={faLink}/>
                         </a>
@@ -56,9 +57,7 @@ class LanguageLearning extends React.Component {
                     </p>
                     <p>
                         Here are the results we compiled:
-                        <img src={lang} alt="Chart of main strategies used to recall words
-                        " width='80%'>
-                        </img>
+                        <img src={lang} width='80%'></img>
                     </p>
 
                     <h5>Method and Research</h5>

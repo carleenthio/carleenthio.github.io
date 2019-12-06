@@ -1,16 +1,16 @@
 .brand{
-    font-size: 22px;
-} 
- .navbar-light .navbar-nav .nav-link{
-    color: #606060;
-} 
+    font-size: 25px;
+}
+.nav-links{
+    padding-right: 2em;
+    font-size: 18px;
+    color: gray;
+}
+
 .navbar-light .navbar-brand {
-    color: #606060;
+    color: gray;
 }
-.navbar-light .navbar-brand:focus{
-    color: #606060;
-}
-.navbar-light .navbar-brand:hover {
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
     color: #00796B; 
   }
 a.nav-links.nav-link :hover{
@@ -18,8 +18,7 @@ a.nav-links.nav-link :hover{
     opacity: 70%; 
   }
 .navbar{
-    padding-right:5%;
-    padding-left:5%;
-    height: 1.2cm;
+    padding-right: 5%;
+    padding-left:5% ;
 }
 

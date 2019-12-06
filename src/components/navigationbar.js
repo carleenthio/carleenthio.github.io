@@ -1,17 +1,14 @@
 import React from 'react'
-import {Link} from "react-router-dom"
+import { BrowserRouter as Router, Link} from "react-router-dom"
 import  {Navbar, Nav} from 'react-bootstrap'
 import '../css/navigationbar.css'
-import { LinkContainer } from "react-router-bootstrap";
 
 
 class Navigationbar extends React.Component {
   	render() {
 		return (
 		<Navbar style={{ width : "100%"}} bg="transparent" expand="md" collapseOnSelect>
-			<LinkContainer to="/">
-			<Navbar.Brand className="brand">Carleen Thio</Navbar.Brand>
-			</LinkContainer>
+			<Navbar.Brand className="brand" href="/mainpage">Sharene Carleen Thio</Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav" >
 				<Nav className="ml-auto" >
