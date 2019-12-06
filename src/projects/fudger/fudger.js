@@ -1,10 +1,11 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container'
-import '../../css/breadcrumb.css'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import { useState } from 'react'
 import '../../css/projects.css'
+import { LinkContainer } from "react-router-bootstrap";
+import Breadcrumb from 'react-bootstrap/Breadcrumb'
 
 import Discover from './discover.js'
 import Define from './define.js'
@@ -14,17 +15,17 @@ import Develop from './develop.js'
 import f1  from '../../pictures/final-screen.png'
 import design from '../../pictures/design-process.png'
 import diamond from '../../pictures/diamond-design.png'
+
 class Fudger extends React.Component {
 	render() {
 		return (
 			<div className="fudger">
-                <nav aria-label="breadcrumb" color='white'>
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a  className="bread-crumb-a" href="/projects">Projects</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Füdger</li>
-                    </ol>
-                </nav>
-
+                <Breadcrumb>
+                    <LinkContainer to="/projects">
+                        <Breadcrumb.Item>Projects</Breadcrumb.Item>
+                    </LinkContainer>
+                    <Breadcrumb.Item active>Füdger</Breadcrumb.Item>
+                    </Breadcrumb>
                 <Container>
                     <h1>Füdger: A UX Research/Design Project</h1>
                     {/* <h2>What better way to help the environment than individually reduce food waste?</h2> */}

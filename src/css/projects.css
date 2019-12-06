@@ -1,51 +1,44 @@
 /* For project.js */
-.projects, .brick-breaker, .fudger, .language-learning{
+.brick-breaker, .fudger, .language-learning{
     background: white;
     height: 100%;
-    position:fixed !important;
-    position:absolute;
-    top:64px;
-    right:0;
-    bottom:0;
-    left:0;
 }
-.projects .grid-container{
-    margin-top: 3%;
+.projects{
+    padding-right: 5%;
+    padding-left:5% ;
 }
 .projects .nav-grid{
-    width: 30%;
+    width: 25%;
     float: left;
-    margin: 1.66%;
+    margin: 4.1%;
+    margin-top: 0px;
     text-align: center;
-    color: black;
+    color: white;
+}
+.projects h3{
+   color: gray;
+    text-align: center;
 }
 .projects .img-grid{
     width: 100%;  
     padding-bottom: 12px;  
 }
 .projects a:hover{
-    color: grey;
+    color: silver;
     text-decoration: none;
 }
-/* .projects-block{
-    height: 18.5cm;
-    overflow: hidden;
-    visibility: hidden;
-} */
-
 /* Breadcrumb */
 .breadcrumb-item.active {
     color: black;
 }
-.breadcrumb li a    {
+.breadcrumb li a {
     color: grey;
 }
 .breadcrumb{
-    background: white;
+    background-color: transparent;
     padding-right: 5%;
     padding-left:5% ;
 }
-
 /* For brick-breaker.js */
 .brick-breaker .game{
     width:960px;
@@ -61,7 +54,7 @@
 }
 .brick-breaker span{
     /* color: rgb(92, 178, 221) */
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 /* For Fudger */

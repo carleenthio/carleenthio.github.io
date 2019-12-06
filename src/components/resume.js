@@ -52,7 +52,7 @@ class Resume extends React.Component {
             <div className='resume' 
             style={{
               marginTop: "10px",
-              display : "grid", 
+              display : "grid",
               justifyContent : "center", 
               textAlign: "center",
               width : "100%"}}>
