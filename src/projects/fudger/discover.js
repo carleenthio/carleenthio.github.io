@@ -1,7 +1,4 @@
 import React from 'react'
-import { BrowserRouter as Router, Link, Route } from "react-router-dom"
-import Container from 'react-bootstrap/Container'
-import '../../css/breadcrumb.css'
 import '../../css/projects.css'
 
 function Discover() {

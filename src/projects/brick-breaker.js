@@ -1,21 +1,21 @@
 import React from 'react'
-import { BrowserRouter as Router, Link, Route } from "react-router-dom"
 import Container from 'react-bootstrap/Container'
-import '../css/breadcrumb.css'
 import '../css/projects.css'
 import { Table } from 'react-bootstrap'
+import { LinkContainer } from "react-router-bootstrap";
+import Breadcrumb from 'react-bootstrap/Breadcrumb'
 
 class BrickBreaker extends React.Component {    
 	render() {
 		return (
 			<div className='brick-breaker'>
-                <nav aria-label="breadcrumb" color='white'>
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="/projects">Projects</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Brick Breaker</li>
-                    </ol>
-                </nav>
-
+                <Breadcrumb>
+                    <LinkContainer to="/projects">
+                        <Breadcrumb.Item>Projects</Breadcrumb.Item>
+                    </LinkContainer>
+                    <Breadcrumb.Item active>Brick Breaker</Breadcrumb.Item>
+                </Breadcrumb>
+                
                 {/* page content */}
                 <Container>
                     <h3>Brick Breaker: A Shot at Game Development</h3>
@@ -57,7 +57,7 @@ class BrickBreaker extends React.Component {
                     </div>
                     <div className='game-div'> 
                         <p>Feel free to try it out!</p>
-                        <iframe src="https://i.simmer.io/@games3211/brick-breaker" className='game'></iframe>                  
+                        <iframe src="https://i.simmer.io/@games3211/brick-breaker" className='game' title="Brick Breaker"></iframe>                  
                     </div>
                     
                     </Container>

@@ -1,11 +1,6 @@
 import React from 'react'
-import { BrowserRouter as Router, Link, Route } from "react-router-dom"
-import Container from 'react-bootstrap/Container'
-import '../../css/breadcrumb.css'
 import '../../css/projects.css'
 import ReactPlayer from 'react-player'
-import { Player } from 'video-react';
-
 // images
 import home  from '../../pictures/homepage.png'
 import grocery  from '../../pictures/fudger-grocery.png'
@@ -66,9 +61,9 @@ function Design() {
                         </li>
                     </ul>
                 </p>
-                <img className='design-process' src={paperInventory} width="70%"/>
-                <img className='design-process' src={paperAdd} width="70%"/>
-                <img className='design-process' src={paperGrocery} width="70%"/>
+                <img className='design-process' alt="The Inventory page of the paper prototype" src={paperInventory} width="70%"/>
+                <img className='design-process' alt="How to add items through the app" src={paperAdd} width="70%"/>
+                <img className='design-process' alt="The grocery page of the paper prototype" src={paperGrocery} width="70%"/>
                 
                 <h5>Result</h5>
                 <p>
@@ -116,7 +111,7 @@ function Design() {
                 Below is the progression of changes made in the hi-fi prototype
                 based on feedback and observations.
             </p>
-            <img className='design-process' src={home} width="100%"/>
+            <img className='design-process' alt="Changes made in homepage" src={home} width="100%"/>
             <p>
                 Motivation and Changes in the Homepage
                 <ol>
@@ -138,7 +133,7 @@ function Design() {
                 </ol>
             </p>
 
-            <img className='design-process' src={inventory} width="100%"/>
+            <img className='design-process' alt="Changes made in inventory" src={inventory} width="100%"/>
             <p>
                 Motivation and Changes in the Inventory 
                 <ol>
@@ -157,7 +152,7 @@ function Design() {
                 </ol>
             </p>
 
-            <img className='design-process' src={grocery} width="100%"/>
+            <img className='design-process' alt="Changes made in grocery page" src={grocery} width="100%"/>
             <p>
                 Motivation and Changes in the Grocery
                 <ol>
@@ -172,7 +167,7 @@ function Design() {
                 </ol>
             </p>
 
-            <img className='design-process' src={additional} width="100%"/>
+            <img className='design-process' alt="Changes made for additional features" src={additional} width="100%"/>
             <p>
                 Additional Changes
                 <ol>

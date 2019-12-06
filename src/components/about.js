@@ -1,7 +1,7 @@
 import React from 'react'
-import { BrowserRouter as Router, Link, Route } from "react-router-dom"
 import '../css/about.css'
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 // import images
 import birdie from '../pictures/birdie.jpg'
 import valkyrie from '../pictures/valkyrie.jpg'
@@ -21,7 +21,18 @@ class About extends React.Component {
 	render() {
 		return (
 			<div className='about'> 
+            <div className="about-icons">
                 <h2 >About Me</h2>
+                <span>
+                <a target="_blank" href="https://www.linkedin.com/in/carleenthio/">
+                    <FontAwesomeIcon icon={faLinkedin}/>
+                </a>
+                <a target="_blank" href="http://github.com/carleenthio">
+                    <FontAwesomeIcon icon={faGithub}/>
+                </a>
+                </span>
+            </div>
+
                 <hr align='left'/>
                 <h3>Who am I?</h3>
                 <p>A recent Cognitive Science and Linguistic graduate from the University of Toronto, 
@@ -41,9 +52,9 @@ class About extends React.Component {
                                 And when it's not cold, you might even catch Valkyrie and I going for walks downtown!
                            </p>
                             <div className='bird-container'>
-                                <img className='birds' src={birdie}/>
-                                <img className='birds' src={valkyrie}/>
-                                <img className='birds' src={jammy} />
+                                <img className='birds' src={birdie} alt="Blue budgie"/>
+                                <img className='birds' src={valkyrie} alt="Yellow-sided greencheek"/>
+                                <img className='birds' src={jammy} alt="Yellow budgie"/>
                                 <p className='bird-p'>Birdie. Troublemaker. Broody.</p>
                                 <p className='bird-p'>Valkyrie. Dog in disguise.</p>
                                 <p className='bird-p'>Jammy. Won't leave you alone. Ever.</p>
@@ -63,16 +74,16 @@ class About extends React.Component {
                             </p>
                             </container>
                             <container className='bird-container'>
-                                <img className='plant' src={p1}/>
-                                <img className='plant' src={p4}/>
-                                <img className='plant' src={p2} />
-                                <img className='plant' src={p3} />
-                                <img className='plant' src={p5} />
-                                <img className='plant' src={p6} />
-                                <img className='plant' src={p7} />
-                                <img className='plant' src={p8} />
-                                <img className='plant' src={p10} />
-                                <img className='plant' src={p9} />
+                                <img className='plant' src={p1} alt="Bearpaw plant"/>
+                                <img className='plant' src={p4} alt="Stephania erecta"/>
+                                <img className='plant' src={p2} alt="Prince of Orange"/>
+                                <img className='plant' src={p3} alt="monstera peru"/>
+                                <img className='plant' src={p5} alt="var. hindu rope"/>
+                                <img className='plant' src={p6} alt="var. alocasia odora"/>
+                                <img className='plant' src={p7} alt="Ice plant"/>
+                                <img className='plant' src={p8} alt="jewel orchid"/>
+                                <img className='plant' src={p10} alt="bunny ear succulent"/>
+                                <img className='plant' src={p9} alt="plant shelf"/>
                             </container>
                         </li>
                         <li>
