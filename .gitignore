@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
->>>>>>> parent of 43c2c19... Merge branch 'master' of https://github.com/carleenthio/carleenthio.github.io
-=======
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
->>>>>>> parent of 43c2c19... Merge branch 'master' of https://github.com/carleenthio/carleenthio.github.io
-# dependencies
 /node_modules
 /.pnp
 .pnp.js
