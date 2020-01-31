@@ -50,9 +50,9 @@ class Fudger extends React.Component {
                     <h2>Result</h2>
                     <hr/>
                     <p>
-                        <a href="https://fqqihb.axshare.com/#g=1&p=home&c=1" target="_blank"> Our prototype</a> was built using Axure RP 9.
+                        <a href="https://fqqihb.axshare.com/#g=1&p=home&c=1" target="_blank" rel="noopener noreferrer"> Our prototype</a> was built using Axure RP 9.
                     
-                        <img className='design-process' style={{paddingTop:"5px"}} src={f1} width="100%"/>
+                        <img className='design-process' alt='final fudger screen' style={{paddingTop:"5px"}} src={f1} width="100%"/>
                         There are three main screens:
                         <ol> 
                             <li>
@@ -99,17 +99,17 @@ class Fudger extends React.Component {
                     <h2>Design Process</h2>
                     <hr/>
                     {/* <div display="block" text-align="center"> */}
-                        <img className='design-process' src={diamond} width="60%"/>
+                        <img className='design-process' alt='double diamond process' src={diamond} width="60%"/>
                     {/* </div> */}
                     <p> We used the <strong> Double Diamond </strong> design process on this project. 
                         This design process consists of diverging and converging ideas to get 
                         to a solution at four stages: discover, define, develop, and deliver. 
                         Below are the methods we used at each stage.</p>
 
-                        <img className='design-process' src={design} width="90%"/>
+                        <img className='design-process' alt='In-depth four stage double diamon process' src={design} width="90%"/>
                        
                      <ControlledTabs />
-                    <hr/>
+                    {/* <hr/> */}
                 </Container>
 			</div>
 		);

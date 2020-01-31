@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Link, Route, Switch, NavLink } from "react-router-dom"
+import { BrowserRouter as HashRouter, Router, Route, Switch} from "react-router-dom"
 import './css/index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Redirect } from 'react-router-dom'
@@ -19,7 +19,11 @@ class Main extends React.Component {
   render() {
     return (
         <div className="main">
-          <Router>
+          {/*
+          Makes sure refreshing page doesn't end up with E404.
+          But it is a quick fix
+           https://levelup.gitconnected.com/deploying-a-create-react-app-with-routing-to-github-pages-f386b6ce84c2 */}
+          <HashRouter basename="/#">
             <Navigationbar/>
             <Switch>
               {/* <Route path="/" component={Mainpage} /> */}
@@ -31,8 +35,10 @@ class Main extends React.Component {
               <Route path="/brick-breaker" component={BrickBreaker} />
               <Route path="/language-learning" component={LanLearn} />
               <Route path="/resume" component={resume}/>
+              <Redirect to="/mainpage" />
+
             </Switch>
-          </Router>
+          </HashRouter>
         </div>
     )
   }

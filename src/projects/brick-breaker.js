@@ -57,7 +57,7 @@ class BrickBreaker extends React.Component {
                     </div>
                     <div className='game-div'> 
                         <p>Feel free to try it out!</p>
-                        <iframe src="https://i.simmer.io/@games3211/brick-breaker" className='game' title="Brick Breaker"></iframe>                  
+                        <iframe src="https://i.simmer.io/@games3211/brick-breaker" className='game' title="Brick Breaker" allowFullScreen> </iframe>                  
                     </div>
                     
                     </Container>

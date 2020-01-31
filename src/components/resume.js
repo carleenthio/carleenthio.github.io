@@ -14,6 +14,7 @@ class Resume extends React.Component {
         this.state = {
         numPages : 3,
         pageNumber : 1,
+        scale: 1.0
         };
 
         this.onDocumentLoadSuccess = this.onDocumentLoadSuccess.bind(this);
@@ -45,9 +46,14 @@ class Resume extends React.Component {
       style.left = "0";
       style.transform = "";
     });
+    // const parentDiv = document.querySelector('#pdfDocument')
+    // let pageScale = parentDiv.clientWidth / this.originalWidth
+    // if (this.state.scale !== pageScale) {
+    //   this.setState({ scale: pageScale });
+    // }
   }   
     render() {
-        const { pageNumber, numPages } = this.state;
+        const { pageNumber} = this.state;
         return (   
             <div className='resume' 
             style={{
@@ -58,10 +64,15 @@ class Resume extends React.Component {
               width : "100%"}}>
                 
             <a href="../Resume.pdf" download>Click to download</a>
-            
-            <Document file={resumePDF} onLoadSuccess={this.onDocumentLoadSuccess} >
-            <Page onLoadSuccess={() => this.removeTextLayerOffset()} pageNumber={pageNumber} />
-        </Document>
+            <div className="document">
+              <Document file={resumePDF} onLoadSuccess={this.onDocumentLoadSuccess} >
+                <Page 
+                  onLoadSuccess={() => this.removeTextLayerOffset()} 
+                  pageNumber={pageNumber} 
+                  scale={this.state.scale}
+                />
+              </Document>
+            </div>
             <table className="button-table">
                 <tr>
                     <td><Button variant="secondary" onClick={this.handlePrevious}>Previous Page</Button></td>

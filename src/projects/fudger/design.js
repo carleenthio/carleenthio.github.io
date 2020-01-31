@@ -69,7 +69,9 @@ function Design() {
                 <p>
                     Below is one of the recorded test sessions.
                 </p>
-                <ReactPlayer url='https://youtu.be/lnwCgkgHoTg'/>
+                <span className='wrapper'>
+                    <ReactPlayer className='player' width="80%" height="400px" url='https://youtu.be/lnwCgkgHoTg' />
+                </span>
                 <p>User feedback and observations:
                     <ul>
                         <li>

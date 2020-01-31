@@ -20,7 +20,7 @@ class LanguageLearning extends React.Component {
                 {/* page content */}
                 <Container>
                     <h3>
-                        <a href='https://drive.google.com/file/d/1CCIr4wBdrV7q_IgaY9wVkWt0chnfk4Os/view' target="_blank" rel='noopener'> 
+                        <a href='https://drive.google.com/file/d/1CCIr4wBdrV7q_IgaY9wVkWt0chnfk4Os/view' target="_blank" rel="noopener noreferrer" > 
                         Language Learning Strategized
                         <FontAwesomeIcon style={{paddingLeft:"5px"}} className="define-icon" icon={faLink}/>
                         </a>

@@ -52,9 +52,8 @@
     margin-top: 25px;
     margin-bottom: 0px;
 }
-.brick-breaker span{
-    /* color: rgb(92, 178, 221) */
-    /* font-weight: bold; */
+.game-div{
+    width: '100%';
 }
 
 /* For Fudger */
@@ -116,6 +115,15 @@
 }
 .fudger ReactPlayer{
     padding-bottom: 5px;
+}
+.design .wrapper {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.player {
+  width: 100%;
+  height: 100%;
 }
 
 /* For language learning */

@@ -24,10 +24,10 @@ class About extends React.Component {
             <div className="about-icons">
                 <h2 >About Me</h2>
                 <span>
-                <a target="_blank" href="https://www.linkedin.com/in/carleenthio/">
+                <a target="_blank" href="https://www.linkedin.com/in/carleenthio/" rel="noopener noreferrer" >
                     <FontAwesomeIcon icon={faLinkedin}/>
                 </a>
-                <a target="_blank" href="http://github.com/carleenthio">
+                <a target="_blank" href="http://github.com/carleenthio" rel="noopener noreferrer" >
                     <FontAwesomeIcon icon={faGithub}/>
                 </a>
                 </span>
@@ -40,6 +40,13 @@ class About extends React.Component {
                     of programming projects, along with several research projects 
                     (one of them being a UX project).
                 </p>
+                <p>
+                    In the end, I would love to be responsible and create enjoyable products for people 
+                    who want them. And I find that the best way to create that experience
+                    is to understand the interactions between the user and the product.
+                    If I can make using a product easier or more effortless and enjoyable, 
+                    I consider that a job well done.
+                </p>
                 <p> Currently project: A UX side project with a friend targeting the plant and trade community  </p>
                 <p> Location: Toronto, Canada </p>
                 
@@ -48,9 +55,9 @@ class About extends React.Component {
                     Here are the top 3 things that I have been enjoying:</p>
                     <ol>
                         <li>        
-                            <p><strong> My birds.</strong> They hang out with me outside the cage. 
+                            <strong> My birds.</strong> They hang out with me outside the cage. 
                                 And when it's not cold, you might even catch Valkyrie and I going for walks downtown!
-                           </p>
+                          
                             <div className='bird-container'>
                                 <img className='birds' src={birdie} alt="Blue budgie"/>
                                 <img className='birds' src={valkyrie} alt="Yellow-sided greencheek"/>
@@ -87,7 +94,6 @@ class About extends React.Component {
                             </container>
                         </li>
                         <li>
-                        <p> 
                             <strong>Something crafty.</strong> This includes:
                             <ul>
                                 <li>Cross stitching</li>
@@ -97,7 +103,6 @@ class About extends React.Component {
                                 <li>Building moss poles for plants</li>
                                 <li>And other things</li>
                             </ul>
-                        </p>
         
                         </li>
                     </ol>
