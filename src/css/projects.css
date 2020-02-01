@@ -1,11 +1,9 @@
 /* For project.js */
-.brick-breaker, .fudger, .language-learning{
-    background: white;
-    height: 100%;
-}
 .projects{
-    padding-right: 5%;
-    padding-left:5% ;
+    padding-right: 3%;
+    padding-left:3% ;
+    width: 100%;
+    height: 100%;
 }
 .projects .nav-grid{
     width: 25%;
@@ -13,18 +11,33 @@
     margin: 4.1%;
     margin-top: 0px;
     text-align: center;
-    color: white;
+    color: black;
+    font-size: 18px;
+    /* height: '100vh';
+  min-height : '100vh'; */
 }
 .projects h3{
-   color: gray;
+    padding-top: 8px;
+    padding-bottom: 5vh;
+    color: #083358;
+    font-size: 40px;
     text-align: center;
+    text-decoration: overline;
+}
+.project-info{
+    color:grey;
+    font-size: 16px;
+}
+.projects hr{
+    margin-top: 5px;
+    margin-bottom:10px;
 }
 .projects .img-grid{
     width: 100%;  
     padding-bottom: 12px;  
 }
 .projects a:hover{
-    color: silver;
+    color: #769FCA;
     text-decoration: none;
 }
 /* Breadcrumb */

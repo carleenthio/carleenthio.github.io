@@ -62,7 +62,7 @@ class Resume extends React.Component {
               justifyContent : "center", 
               textAlign: "center",
               width : "100%"}}>
-                
+            <h2>Resume</h2>
             <a href="../Resume.pdf" download>Click to download</a>
             <div className="document">
               <Document file={resumePDF} onLoadSuccess={this.onDocumentLoadSuccess} >
@@ -79,6 +79,10 @@ class Resume extends React.Component {
                     <td><Button variant="secondary" onClick={this.handleNext}>Next Page</Button></td>
                 </tr>
             </table>
+              <div className="left"></div>
+              <div className="right"></div>
+              <div className="top"></div>
+              <div className="bottom"></div>
             </div>
 
         );

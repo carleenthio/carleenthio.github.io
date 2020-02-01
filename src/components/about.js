@@ -33,7 +33,7 @@ class About extends React.Component {
                 </span>
             </div>
 
-                <hr align='left'/>
+                {/* <hr align='left'/> */}
                 <h3>Who am I?</h3>
                 <p>A recent Cognitive Science and Linguistic graduate from the University of Toronto, 
                     who has always enjoyed doing and trying out different things. I've done a fair share
