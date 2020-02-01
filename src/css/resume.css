@@ -18,8 +18,9 @@
     /* width: 50%; */
     height: 100%;
     /* padding: 50px; */
-    padding-right: 5%;
-    padding-left:5% ;
+    padding-right: 3%;
+    padding-left:3% ;
+    padding-top:9px;
 }
 .react-pdf__Page__canvas{
     outline: 30px solid #F8F8F8;
@@ -37,7 +38,7 @@
 .resume h2{
     font-size: 40px;
     color: #083358;
-    padding: 0px;
+    padding-left: 13px;
     text-decoration: overline;
 }
 .resume a{
