@@ -12,7 +12,9 @@ body, html {
     /* background: blue; */
     /* width: 100vw; */
     height: 94vh;
-    /* padding: 25px; */
+    padding: 25px;
+    padding-right: 5%;
+    padding-left:5% ;
     background-image: url("../pictures/Background.svg");
     background-size: cover;
 }

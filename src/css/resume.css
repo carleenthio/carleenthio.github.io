@@ -18,6 +18,8 @@
     /* width: 50%; */
     height: 100%;
     /* padding: 50px; */
+    padding-right: 5%;
+    padding-left:5% ;
 }
 .react-pdf__Page__canvas{
     outline: 30px solid #F8F8F8;
@@ -51,7 +53,7 @@
     height: 10px;
 }
 
-/* .top, .bottom, .left, .right {
+.top, .bottom, .left, .right {
     position: fixed;
     background: #769FCA;
 	}
@@ -67,4 +69,4 @@
 		height: 15px;
 		}
 		.top { top: 0; }
-		.bottom { bottom: 0; } */
+		.bottom { bottom: 0; }
