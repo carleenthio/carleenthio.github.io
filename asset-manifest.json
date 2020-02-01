@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.d43f36cd.chunk.css",
+    "main.css": "/static/css/main.a620f2a0.chunk.css",
     "main.js": "/static/js/main.6e64f510.chunk.js",
     "main.js.map": "/static/js/main.6e64f510.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.300ee560.js",
@@ -9,11 +9,11 @@
     "static/js/2.0b949680.chunk.js": "/static/js/2.0b949680.chunk.js",
     "static/js/2.0b949680.chunk.js.map": "/static/js/2.0b949680.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ea0724af2756197612b453081444c8ba.js": "/precache-manifest.ea0724af2756197612b453081444c8ba.js",
+    "precache-manifest.865439f260a2ba956e5e4e43122906da.js": "/precache-manifest.865439f260a2ba956e5e4e43122906da.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/static/css/2.b0bb7f2c.chunk.css.map",
-    "static/css/main.d43f36cd.chunk.css.map": "/static/css/main.d43f36cd.chunk.css.map",
-    "static/media/mainpage.css": "/static/media/Background.514e9fb8.svg",
+    "static/css/main.a620f2a0.chunk.css.map": "/static/css/main.a620f2a0.chunk.css.map",
+    "static/media/mainpage.css": "/static/media/Background.c27e4d5b.svg",
     "static/media/Resume.pdf": "/static/media/Resume.da919260.pdf",
     "static/media/axure.jpg": "/static/media/axure.77efbcd3.jpg",
     "static/media/birdie.jpg": "/static/media/birdie.4026100f.jpg",
@@ -48,7 +48,7 @@
     "static/js/runtime-main.300ee560.js",
     "static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.0b949680.chunk.js",
-    "static/css/main.d43f36cd.chunk.css",
+    "static/css/main.a620f2a0.chunk.css",
     "static/js/main.6e64f510.chunk.js"
   ]
 }
