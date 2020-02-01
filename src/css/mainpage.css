@@ -1,3 +1,4 @@
+
 body, html {
     height: 100%;
     /* margin: 0;
@@ -88,3 +89,12 @@ body, html {
 .mainpage .buttonpage:focus{
     outline:0;
 }
+
+@media only screen and (max-width: 700px) {
+    .mainpage p:not(:first-child){
+        color:rgb(164, 192, 221);
+        font-size: 25px;
+        font-family: 'Source Code Pro';
+        /* text-shadow: 1px 0 grey, 0 1px grey, 1px 0 grey, 0 1px grey; */
+    }
+  }
