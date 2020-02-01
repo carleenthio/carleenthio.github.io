@@ -46,7 +46,19 @@ class Fudger extends React.Component {
                     <p>Design a digital experience that helps users streamline their grocery shopping 
                         experience by allowing them to track their food inventory, 
                         effectively mitigating the over-purchasing of food items. </p>
-
+                    
+                    <h3>My Role</h3>
+                    <p>This project was done with a team of 6 students from varying backgrounds. 
+                        We all participated at every stage of the process. 
+                        However, I was personally responsible for:
+                        <ul>
+                            <li> Conducting field-study research</li>
+                            <li> Integrating and writing most of the information in the usability study report, 
+                                specifically for the method, findings and implications section</li>
+                            <li> Editing majority of the reports to ensure conformity, flow, and readability</li>
+                            <li> Ensuring conformity in the prototype by checking alignments, fonts, and colours</li>
+                        </ul>
+                    </p>
                     <h2>Result</h2>
                     <hr/>
                     <p>
@@ -72,18 +84,7 @@ class Fudger extends React.Component {
                         </ol>
                     </p>
                    
-                    <h3>My Role</h3>
-                    <p>This project was done with a team of 6 students from varying backgrounds. 
-                        We all participated at every stage of the process. 
-                        However, I was personally responsible for:
-                        <ul>
-                            <li> Conducting field-study research</li>
-                            <li> Integrating and writing most of the information in the usability study report, 
-                                specifically for the method, findings and implications section</li>
-                            <li> Editing majority of the reports to ensure conformity, flow, and readability</li>
-                            <li> Ensuring conformity in the prototype by checking alignments, fonts, and colours</li>
-                        </ul>
-                    </p>
+                    
 
                     <h3> Scope and Constraints</h3>
                     <p>Due to this project being done concurrently with class, there wasn’t much time 
@@ -111,6 +112,10 @@ class Fudger extends React.Component {
                      <ControlledTabs />
                     {/* <hr/> */}
                 </Container>
+                {/* <Discover/>
+                <Define/>
+                <Design/>
+                <Develop/>  */}
 			</div>
 		);
 	}

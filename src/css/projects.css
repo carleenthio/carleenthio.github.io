@@ -49,8 +49,11 @@
 }
 .breadcrumb{
     background-color: transparent;
-    padding-right: 5%;
-    padding-left:5% ;
+    padding-right: 3%;
+    padding-left:3% ;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
 }
 /* For brick-breaker.js */
 .brick-breaker .game{
@@ -99,6 +102,10 @@
 }
 .fudger .bread-crumb-a:hover{
     color:grey;
+}
+.define, .design, .develop, .discover{
+    /* margin-left: 3%; */
+    margin-top: 15px;
 }
 .define-icon{
     font-size: 30px;
