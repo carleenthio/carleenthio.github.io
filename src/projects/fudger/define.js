@@ -14,7 +14,7 @@ function Define() {
                 &nbsp;to outline how a user would 
                 complete specific tasks. </p>
 
-                <h3>Personas</h3>
+                <h4>Personas</h4>
                 <p>
                     Our prototype was designed with the following fictional users in mind. 
                 </p>
@@ -74,7 +74,7 @@ function Define() {
                 </table>
                 
 
-                <h3> Scenarios</h3>
+                <h4> Scenarios</h4>
                 <p>
                     The scenarios created for this project were used to help the team
                     keep in mind what goals we are trying to achieve. It provides us

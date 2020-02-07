@@ -18,7 +18,7 @@ function Design() {
             analysis, which included: observing, receiving feedback, 
             and timing task completion.</p>
 
-            <h3> My Low-Fidelity Paper Prototype</h3>
+            <h4> My Low-Fidelity Paper Prototype</h4>
                 <hr></hr>
                 <h5>The Paper Prototype</h5>
                 <p>
@@ -98,7 +98,7 @@ function Design() {
                     </ul>
                 </p>
                 
-            <h3>High-fidelity Prototype</h3>
+            <h4>High-fidelity Prototype</h4>
             <hr/>
             <p>
                 At the end of the converging stage of the prototype, where the team looked at

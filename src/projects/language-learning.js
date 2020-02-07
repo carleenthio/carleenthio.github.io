@@ -19,13 +19,13 @@ class LanguageLearning extends React.Component {
                 </Breadcrumb>
                 {/* page content */}
                 <Container>
-                    <h3>
-                        <a href='https://drive.google.com/file/d/1CCIr4wBdrV7q_IgaY9wVkWt0chnfk4Os/view' target="_blank" rel="noopener noreferrer" > 
+                    <h1>
                         Language Learning Strategized
+                        <a href='https://drive.google.com/file/d/1CCIr4wBdrV7q_IgaY9wVkWt0chnfk4Os/view' target="_blank" rel="noopener noreferrer" > 
                         <FontAwesomeIcon style={{paddingLeft:"5px"}} className="define-icon" icon={faLink}/>
                         </a>
-                    </h3>
-
+                    </h1>
+                    <br></br>
                     <h5>Problem</h5>
                     <p>Vocabulary expansion is difficult (learners often fail to retrieve words), 
                         mostly due to a mismatch of the learner to learning strategy.

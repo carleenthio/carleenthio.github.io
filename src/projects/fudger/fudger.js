@@ -29,6 +29,7 @@ class Fudger extends React.Component {
                 <Container>
                     <h1>Füdger: A UX Research/Design Project</h1>
                     {/* <h2>What better way to help the environment than individually reduce food waste?</h2> */}
+                    <br></br>
                     <p>
                         Food waste is a global issue that has plagued modern society. It doesn't happen because of a 
                         decision at the kitchen bin, but rather throughout the stages of food 
@@ -47,7 +48,7 @@ class Fudger extends React.Component {
                         experience by allowing them to track their food inventory, 
                         effectively mitigating the over-purchasing of food items. </p>
                     
-                    <h3>My Role</h3>
+                    <h4>My Role</h4>
                     <p>This project was done with a team of 6 students from varying backgrounds. 
                         We all participated at every stage of the process. 
                         However, I was personally responsible for:
@@ -109,38 +110,42 @@ class Fudger extends React.Component {
 
                         <img className='design-process' alt='In-depth four stage double diamon process' src={design} width="90%"/>
                        
-                     <ControlledTabs />
+                     {/* <ControlledTabs /> */}
                     {/* <hr/> */}
                 </Container>
-                {/* <Discover/>
+                <h3>1. Discover Stage</h3>
+                <Discover/>
+                <h3>2. Define Stage</h3>
                 <Define/>
+                <h3>3. Design Stage</h3>
                 <Design/>
-                <Develop/>  */}
+                <h3>4. Develop Stage</h3>
+                <Develop/> 
 			</div>
 		);
 	}
 }
 
-function ControlledTabs() {
-    const [key, setKey] = useState('discover');
+// function ControlledTabs() {
+//     const [key, setKey] = useState('discover');
   
-    return (
-      <Tabs id="controlled-tab-example" activeKey={key} onSelect={k => setKey(k)}>
-        <Tab eventKey="discover" title="Discover">
-            <Discover/>
-        </Tab>
-        <Tab eventKey="define" title="Define">
-            <Define/>
-        </Tab>
-        <Tab eventKey="design" title="Design">
-            <Design/>
-        </Tab>
-        <Tab eventKey="develop" title="Develop">
-            <Develop/>
-        </Tab>
-      </Tabs>
-    );
-  }
+//     return (
+//       <Tabs id="controlled-tab-example" activeKey={key} onSelect={k => setKey(k)}>
+//         <Tab eventKey="discover" title="Discover">
+//             <Discover/>
+//         </Tab>
+//         <Tab eventKey="define" title="Define">
+//             <Define/>
+//         </Tab>
+//         <Tab eventKey="design" title="Design">
+//             <Design/>
+//         </Tab>
+//         <Tab eventKey="develop" title="Develop">
+//             <Develop/>
+//         </Tab>
+//       </Tabs>
+//     );
+//   }
   
  
 export default Fudger
