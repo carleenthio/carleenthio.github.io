@@ -59,12 +59,20 @@ class About extends React.Component {
                             If I can make using a product easier or more effortless and enjoyable, 
                             I consider that a job well done.
                         </p>
-                        
+                        <span class='show-small'>
+                        <h3>Current Projects</h3>
+                        <ul> 
+                            <li>Content writing for TypeMaster, Finland <span className="note">Freelance </span></li>
+                            <li>Content writing for a UX portfolio <span className="note">Freelance </span></li>
+                            <li>A UX design project, targeting the plant and trade community </li>
+                            <li>Web design for a blog. Building on wordpress </li>
+                        </ul>
+                        </span>
                     </div>
                     <div class="div2"> 
                         <img className='profile' src={profile} alt="I'm hugging a tree"/>    
                     </div>
-                    <div class="div3">
+                    <div className="div3">
                         <h3>Current Projects</h3>
                         <ul> 
                             <li>Content writing for TypeMaster, Finland <span className="note">Freelance </span></li>
@@ -89,47 +97,47 @@ class About extends React.Component {
                                     </ul>
                           </div>  
                         
-                                <div class="div5">        
-                                    <strong> My birds.</strong> They hang out with me outside the cage. 
-                                        And when it's not cold, you might even catch Valkyrie and I going for walks downtown!
-                                
-                                    <div className='bird-container'>
-                                        <img className='birds' src={birdie} alt="Blue budgie"/>
-                                        <img className='birds' src={valkyrie} alt="Yellow-sided greencheek"/>
-                                        <img className='birds' src={jammy} alt="Yellow budgie"/>
-                                        <p className='bird-p'>Birdie. Troublemaker. Broody.</p>
-                                        <p className='bird-p'>Valkyrie. Dog in disguise.</p>
-                                        <p className='bird-p'>Jammy. Won't leave you alone. Ever.</p>
-                                    </div>
-                                    </div>
+                    <div class="div5">        
+                        <strong> My birds.</strong> They hang out with me outside the cage. 
+                            And when it's not cold, you might even catch Valkyrie and I going for walks downtown!
+                    
+                        <div className='bird-container'>
+                            <img className='birds' src={birdie} alt="Blue budgie"/>
+                            <img className='birds' src={valkyrie} alt="Yellow-sided greencheek"/>
+                            <img className='birds' src={jammy} alt="Yellow budgie"/>
+                            <p className='bird-p'>Birdie. Troublemaker. Broody.</p>
+                            <p className='bird-p'>Valkyrie. Dog in disguise.</p>
+                            <p className='bird-p'>Jammy. Won't leave you alone. Ever.</p>
+                        </div>
+                        </div>
                                
-                                <div class="div6"> 
-                                    <container>
+                    <div class="div6"> 
+                        <container>
+                        <container className='bird-container'>
+                            <img className='plant' src={p1} alt="Bearpaw plant"/>
+                            <img className='plant' src={p4} alt="Stephania erecta"/>
+                            <img className='plant' src={p2} alt="Prince of Orange"/>
+                            <img className='plant' src={p3} alt="monstera peru"/>
+                            <img className='plant' src={p5} alt="var. hindu rope"/>
+                            <img className='plant' src={p6} alt="var. alocasia odora"/>
+                            <img className='plant' src={p7} alt="Ice plant"/>
+                            <img className='plant' src={p8} alt="jewel orchid"/>
+                            <img className='plant' src={p10} alt="bunny ear succulent"/>
+                            <img className='plant' src={p9} alt="plant shelf"/>
+                        </container>
+                        <p> <strong>Plants.</strong> I'm a huge plant collector. Currently with at least 130 different species.
+                            The last picture alone had around 18 plants in it (which has now increased to 25). 
+                            An extensive amount of research has gone through meeting each plants requirements, 
+                            as well as finding a soil-free medium to grow them in 
+                            (in order to eliminate bug problems). 
+                        </p>
+                        <p> At the moment, they're in a semi-hydroponic setup using LECA (light expanded clay aggregate)
+                            as my medium, and three solution additives to ensure they meet the water parameters and
+                            get all the nutrients needed to stay healthy. Or four if I'm acclimating them to the new setup.
+                        </p>
+                        </container>
                         
-                                    <p> <strong>Plants.</strong> I'm a huge plant collector. Currently with at least 130 different species.
-                                        The last picture alone had around 18 plants in it (which has now increased to 25). 
-                                        An extensive amount of research has gone through meeting each plants requirements, 
-                                        as well as finding a soil-free medium to grow them in 
-                                        (in order to eliminate bug problems). 
-                                    </p>
-                                    <p> At the moment, they're in a semi-hydroponic setup using LECA (light expanded clay aggregate)
-                                        as my medium, and three solution additives to ensure they meet the water parameters and
-                                        get all the nutrients needed to stay healthy. Or four if I'm acclimating them to the new setup.
-                                    </p>
-                                    </container>
-                                    <container className='bird-container'>
-                                        <img className='plant' src={p1} alt="Bearpaw plant"/>
-                                        <img className='plant' src={p4} alt="Stephania erecta"/>
-                                        <img className='plant' src={p2} alt="Prince of Orange"/>
-                                        <img className='plant' src={p3} alt="monstera peru"/>
-                                        <img className='plant' src={p5} alt="var. hindu rope"/>
-                                        <img className='plant' src={p6} alt="var. alocasia odora"/>
-                                        <img className='plant' src={p7} alt="Ice plant"/>
-                                        <img className='plant' src={p8} alt="jewel orchid"/>
-                                        <img className='plant' src={p10} alt="bunny ear succulent"/>
-                                        <img className='plant' src={p9} alt="plant shelf"/>
-                                    </container>
-                                    </div>
+                        </div>
                 </div>
                 {/* <hr align='left'/> */}
                 </div>

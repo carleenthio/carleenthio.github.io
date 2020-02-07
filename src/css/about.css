@@ -1,14 +1,16 @@
+
 .about{
     padding-top: 20px;
     padding-right: 3%;
     padding-left: 3% ;
     font-size: 16px;
 }
+/* grid-row-start | grid-column-start | grid-row-end | grid-column-end */
 .parent {
     padding-top: 15px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
+    /* grid-template-rows: auto; */
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     }
@@ -17,7 +19,7 @@
 .div2 { grid-area: 1 / 3 / 3 / 4; }
 .div3 { grid-area: 1 / 4 / 3 / 5; }
 .div4 { grid-area: 3 / 1 / 4 / 3;}
-    /* birds */
+/* birds */
 .div5 { 
     grid-area: 4 / 1 / 5 / 3; 
 }
@@ -26,7 +28,12 @@ padding-top: 32px;}
 .details{
     color:#769FCA;
     font-weight: 500;
- 
+}
+.div4, .div6{
+    margin-top: -90px; 
+}
+.show-small{
+    visibility: hidden;
 }
 .birds{
     float: left;
@@ -90,3 +97,29 @@ padding-top: 32px;}
 .note{
     color: #769FCA;
 }
+
+
+@media only screen and (max-width: 900px) {
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        }
+    .div3{
+        visibility: hidden;
+    }
+    .show-small{
+        visibility: visible;
+    }
+    .div1 { grid-area: 1 / 1 / 3 / 3; }
+    .div2 { grid-area: 1 / 3 / 3 / 5; }
+    .switch3 { grid-area: 3 / 1 / 5 / 3; }
+    .div4 { grid-area: 3 / 3 / 5 / 5; }
+    .profile{
+        margin-top: 5px;
+        width: 80%;
+        border-radius: 3%;
+    }
+  }
