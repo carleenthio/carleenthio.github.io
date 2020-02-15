@@ -1,7 +1,108 @@
+.carousel, .carousel-img{ 
+    width : 100%;
+    align-content: center;
+    /* margin-left: 10px;     */
+}
+.carousel-img{
+    width: 90%;
+}
+.carousel-img{
+    border: 5px solid rgba(8, 51, 88, .4);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.carousel-control-next-icon {
+    background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230000000' viewBox='-2 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0px;
+}
+
+.carousel-control-prev-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='1.2 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+    height: 50px;
+    width: 50px;
+}
+.carousel-indicators li{
+    border-top:10px solid black;
+    border-radius: 5px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-right: 3%;
+    padding-left:3%;
+    margin: 0px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+
+    
+  }
+  .column2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    text-align: center;
+    padding-left: 80px;
+  }
+  
+.fudger hr{
+    /* width: 80%; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 /* For project.js */
+.project-button{
+    background-color:#083358;
+    border: none;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    /* margin: 4px 2px; */
+    color: white; 
+    /* font-weight: bold; */
+    outline:0;
+    font-size: 18px;
+}
+.project-button-a :hover{
+    background-color:#769FCA;
+}
+.project-button-a :active{
+    outline:0;
+}
+.project-button-a :focus{
+    outline:0;
+}
+.project-button{
+    background-color:#083358;
+    border: none;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    /* margin: 4px 2px; */
+    color: white; 
+    /* font-weight: bold; */
+    outline:0;
+    font-size: 18px;
+}
+.project-button-a{
+    text-decoration: none;
+}
+
 .projects{
     padding-right: 3%;
-    padding-left:3% ;
+    padding-left:3%;
     padding-top:10px;
     width: 100%;
     height: 100%;
@@ -78,7 +179,7 @@
     border: 1px solid rgb(220,220,220,0.7);
 }
 .fudger *{
-    text-align: justify;
+    /* text-align: center; */
 }
 .fudger .design-process{
     padding-bottom: 1.5%;

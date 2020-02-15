@@ -2,13 +2,13 @@ import React from 'react'
 import '../../css/projects.css'
 import ReactPlayer from 'react-player'
 // images
-import home  from '../../pictures/homepage.png'
-import grocery  from '../../pictures/fudger-grocery.png'
-import inventory  from '../../pictures/fudger-inventory.png'
-import additional  from '../../pictures/fudger-additionals.png'
-import paperAdd  from '../../pictures/paper-add.JPG'
-import paperGrocery  from '../../pictures/paper-grocery.JPG'
-import paperInventory  from '../../pictures/paper-inventory.JPG'
+import home  from '../../pictures/fudger/homepage.png'
+import grocery  from '../../pictures/fudger/fudger-grocery.png'
+import inventory  from '../../pictures/fudger/fudger-inventory.png'
+import additional  from '../../pictures/fudger/fudger-additionals.png'
+import paperAdd  from '../../pictures/fudger/paper-add.JPG'
+import paperGrocery  from '../../pictures/fudger/paper-grocery.JPG'
+import paperInventory  from '../../pictures/fudger/paper-inventory.JPG'
 function Design() {
     return(
         <div className='design'>
@@ -18,8 +18,9 @@ function Design() {
             analysis, which included: observing, receiving feedback, 
             and timing task completion.</p>
 
-            <h4> My Low-Fidelity Paper Prototype</h4>
-                <hr></hr>
+           
+                <hr/>
+                <h4> My Low-Fidelity Paper Prototype</h4>
                 <h5>The Paper Prototype</h5>
                 <p>
                     While there are several necessary features we decided on. 
@@ -98,8 +99,8 @@ function Design() {
                     </ul>
                 </p>
                 
-            <h4>High-fidelity Prototype</h4>
             <hr/>
+            <h4>High-fidelity Prototype</h4>
             <p>
                 At the end of the converging stage of the prototype, where the team looked at
                 what features to include, we designed the <strong>wireframe</strong>. And from there
@@ -109,6 +110,26 @@ function Design() {
                 After version 1.0, we ran a usability 
                 test with a few UX experts and fellow classmates and updated the prototype from their feedback. 
             </p>
+            <h5>Result</h5>
+                    <p>
+                        There are three main screens:
+                        <ol> 
+                            <li>
+                                Homepage: Food expiration tracker
+                                <p> Feature -> Gamification, tips and tricks</p>
+                            </li>
+                            <li>
+                                Inventory: Keep track of what you have at home
+                                <p>Feature -> Search by category, add item, expiration colour legend</p>
+
+                            </li>
+                            <li>
+                                Grocery: A grocery list
+                                <p>Feature -> Creates a list, ability to move bought item into inventory (no need for manual addition)</p>
+
+                            </li>
+                        </ol>
+                    </p>
             <p>
                 Below is the progression of changes made in the hi-fi prototype
                 based on feedback and observations.
@@ -187,6 +208,7 @@ function Design() {
                     </p>
                     </li>
                 </ol>
+                
             </p>
         </div>
     )
