@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.933993a5.chunk.css",
-    "main.js": "/static/js/main.0cd4b2d9.chunk.js",
-    "main.js.map": "/static/js/main.0cd4b2d9.chunk.js.map",
+    "main.css": "/static/css/main.c3274d1a.chunk.css",
+    "main.js": "/static/js/main.c72dac0b.chunk.js",
+    "main.js.map": "/static/js/main.c72dac0b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.300ee560.js",
     "runtime-main.js.map": "/static/js/runtime-main.300ee560.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.8f2a410b.chunk.js": "/static/js/2.8f2a410b.chunk.js",
-    "static/js/2.8f2a410b.chunk.js.map": "/static/js/2.8f2a410b.chunk.js.map",
+    "static/js/2.ed8225f4.chunk.js": "/static/js/2.ed8225f4.chunk.js",
+    "static/js/2.ed8225f4.chunk.js.map": "/static/js/2.ed8225f4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c98f7a39cabe6fbcbb7a850e2a16fc29.js": "/precache-manifest.c98f7a39cabe6fbcbb7a850e2a16fc29.js",
+    "precache-manifest.8dd5d76c2741cb7aa253bc4040ac1474.js": "/precache-manifest.8dd5d76c2741cb7aa253bc4040ac1474.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/static/css/2.b0bb7f2c.chunk.css.map",
-    "static/css/main.933993a5.chunk.css.map": "/static/css/main.933993a5.chunk.css.map",
+    "static/css/main.c3274d1a.chunk.css.map": "/static/css/main.c3274d1a.chunk.css.map",
     "static/media/mainpage.css": "/static/media/Background.c27e4d5b.svg",
     "static/media/Resume.pdf": "/static/media/Resume.b4b06249.pdf",
     "static/media/axure.jpg": "/static/media/axure.77efbcd3.jpg",
@@ -20,7 +20,9 @@
     "static/media/brick-breaker.jpg": "/static/media/brick-breaker.c621a87f.jpg",
     "static/media/design-process.png": "/static/media/design-process.54760b60.png",
     "static/media/diamond-design.png": "/static/media/diamond-design.d801087d.png",
-    "static/media/final-screen.png": "/static/media/final-screen.eec5e823.png",
+    "static/media/final-screen-1.png": "/static/media/final-screen-1.9ea326b8.png",
+    "static/media/final-screen-2.png": "/static/media/final-screen-2.6bb2b2ea.png",
+    "static/media/final-screen-3.png": "/static/media/final-screen-3.f508b102.png",
     "static/media/fudger-additionals.png": "/static/media/fudger-additionals.882aef97.png",
     "static/media/fudger-grocery.png": "/static/media/fudger-grocery.1f9429a4.png",
     "static/media/fudger-inventory.png": "/static/media/fudger-inventory.91ed6275.png",
@@ -47,8 +49,8 @@
   "entrypoints": [
     "static/js/runtime-main.300ee560.js",
     "static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.8f2a410b.chunk.js",
-    "static/css/main.933993a5.chunk.css",
-    "static/js/main.0cd4b2d9.chunk.js"
+    "static/js/2.ed8225f4.chunk.js",
+    "static/css/main.c3274d1a.chunk.css",
+    "static/js/main.c72dac0b.chunk.js"
   ]
 }
