@@ -25,14 +25,15 @@ class Kallie extends React.Component {
                     <div className="row">
                         <div className="column"><h4>The Problem</h4>
                         <p>
-                            I noticed a problem in the plant and trading communnity in Toronto.
-                            Both people who had few or lots of trades had trouble keeping up with date trades.
-                            Even if they had alternatives like pen and paper or their ohone calendars.
+                            I noticed a problem in the plant and trading community in Toronto. 
+                            Both people who had few or lots of trades had trouble keeping up with 
+                            date trades. Even if they had alternatives like pen and paper or their 
+                            phone calendars.
                         </p>
                         
                         <h4>Objective</h4>
                         <p>
-                            To identify a root cause for the failure of the current 
+                            To identify a root cause for the failure of the currently 
                             available scheduling system and design an alternate solution 
                             that could help mitigate food waste. 
                         </p>

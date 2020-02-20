@@ -68,7 +68,7 @@ class Fudger extends React.Component {
 
                     <h4>My Role</h4>
                     <p>This project was done with a team of 6 students from varying backgrounds. 
-                        We all participated at every stage of the process. 
+                        We all participated in every stage of the process. 
                         However, I was personally responsible for:
                         <ul>
                             <li> Conducting field-study research</li>
