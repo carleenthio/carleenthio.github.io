@@ -5,13 +5,16 @@ import '../css/projects.css'
 import brick from '../pictures/brick-breaker.jpg'
 import lang from '../pictures/language.jpg'
 import fudger from '../pictures/fudger/axure.jpg'
+import kallie from '../pictures/kallie/kallie-icon.png'
 
 class Projects extends React.Component {
 	render() {
 		return (
 			<div className='projects'>
 				<h3>Projects</h3>
+				
 				<Container className='grid-container'>
+					
 					<Link to="/fudger" className="nav-grid">
 						<img className='img-grid' alt='Fudger logo' src={fudger}/>
 						Füdger: UX Research & Design 
@@ -19,6 +22,14 @@ class Projects extends React.Component {
 						<p className="project-info">
 							An inventory & grocery tracker to help reduce food waste
 							at the consumer level
+						</p>
+					</Link>
+					<Link to="/brick-breaker" className="nav-grid"> 
+						<img className='img-grid' alt='Brick breaker logo' src={brick}/>
+						Block Breaker: A Shot at Game Development
+						<hr></hr>
+						<p className="project-info" >
+							Hands on deck! Trying out Unity. 
 						</p>
 					</Link>
 					<Link to="/language-learning" className="nav-grid">
@@ -30,12 +41,16 @@ class Projects extends React.Component {
 							based on proficieny level
 						</p>
 					</Link>
-					<Link to="/brick-breaker" className="nav-grid"> 
-						<img className='img-grid' alt='Brick breaker logo' src={brick}/>
-						Brick Breaker: A Shot at Game Development
+					<Link to="/" className="nav-grid">
+						
+					</Link>
+					<Link to="/kallie" className="nav-grid">
+						<img className='img-grid' alt='Kallie logo' src={kallie}/>
+						[WIP] Kallie: UX Research & Design 
 						<hr></hr>
-						<p className="project-info" >
-							Hands on deck! Trying out Unity. 
+						<p className="project-info">
+							An update to the conventional calendars by reducing users'
+							cognitive load
 						</p>
 					</Link>
 					</Container>

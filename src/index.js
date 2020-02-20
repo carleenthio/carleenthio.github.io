@@ -14,6 +14,7 @@ import resume from './components/resume'
 import Fudger from './projects/fudger/fudger'
 import BrickBreaker from './projects/brick-breaker'
 import LanLearn from './projects/language-learning'
+import Kallie from './projects/kallie'
 
 class Main extends React.Component { 
   render() {
@@ -32,6 +33,7 @@ class Main extends React.Component {
               <Route path="/projects" component={Projects} />
               <Route path="/about" component={About} />
               <Route path="/fudger" component={Fudger} />
+              <Route path="/kallie" component={Kallie} />
               <Route path="/brick-breaker" component={BrickBreaker} />
               <Route path="/language-learning" component={LanLearn} />
               <Route path="/resume" component={resume}/>
