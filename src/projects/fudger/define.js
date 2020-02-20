@@ -16,7 +16,7 @@ function Define() {
 
                 <h4>Personas</h4>
                 <p>
-                    Our prototype was designed with the following fictional users in mind. 
+                    Our prototype was designed with the following hypothetical representation of our users in mind. 
                 </p>
                 <table className="personas">
                     <tr>

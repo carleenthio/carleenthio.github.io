@@ -11,7 +11,6 @@ import Design from './design.js'
 import Develop from './develop.js'
 import Carousel from '../../components/carousel'
 
-import f1  from '../../pictures/fudger/final-screen-1.png'
 import design from '../../pictures/fudger/design-process.png'
 import diamond from '../../pictures/fudger/diamond-design.png'
 

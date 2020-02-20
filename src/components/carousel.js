@@ -44,7 +44,7 @@ function ControlledCarousel() {
         </Carousel>
         <a className="project-button-a" href="https://fqqihb.axshare.com/#g=1&p=home&c=1" target="_blank" rel="noopener noreferrer"> 
             <button className="project-button">
-            View prototype here
+            View prototype
             </button>
         </a>
     
