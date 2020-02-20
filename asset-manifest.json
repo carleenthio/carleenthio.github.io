@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3274d1a.chunk.css",
-    "main.js": "/static/js/main.296dd572.chunk.js",
-    "main.js.map": "/static/js/main.296dd572.chunk.js.map",
+    "main.css": "/static/css/main.af46ba84.chunk.css",
+    "main.js": "/static/js/main.549e6f83.chunk.js",
+    "main.js.map": "/static/js/main.549e6f83.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.300ee560.js",
     "runtime-main.js.map": "/static/js/runtime-main.300ee560.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.ed8225f4.chunk.js": "/static/js/2.ed8225f4.chunk.js",
-    "static/js/2.ed8225f4.chunk.js.map": "/static/js/2.ed8225f4.chunk.js.map",
+    "static/js/2.9217fc54.chunk.js": "/static/js/2.9217fc54.chunk.js",
+    "static/js/2.9217fc54.chunk.js.map": "/static/js/2.9217fc54.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.227458d7b8992097bb73ff895cb27b63.js": "/precache-manifest.227458d7b8992097bb73ff895cb27b63.js",
+    "precache-manifest.62032d0ee845f8d242b9abf3df5f9f59.js": "/precache-manifest.62032d0ee845f8d242b9abf3df5f9f59.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/static/css/2.b0bb7f2c.chunk.css.map",
-    "static/css/main.c3274d1a.chunk.css.map": "/static/css/main.c3274d1a.chunk.css.map",
+    "static/css/main.af46ba84.chunk.css.map": "/static/css/main.af46ba84.chunk.css.map",
     "static/media/mainpage.css": "/static/media/Background.c27e4d5b.svg",
     "static/media/Resume.pdf": "/static/media/Resume.b4b06249.pdf",
     "static/media/axure.jpg": "/static/media/axure.77efbcd3.jpg",
@@ -28,6 +28,8 @@
     "static/media/fudger-inventory.png": "/static/media/fudger-inventory.91ed6275.png",
     "static/media/homepage.png": "/static/media/homepage.dccbdbcf.png",
     "static/media/jammy.JPG": "/static/media/jammy.17e5e290.JPG",
+    "static/media/kallie-icon.png": "/static/media/kallie-icon.ae037df0.png",
+    "static/media/kallie-overview-jan.png": "/static/media/kallie-overview-jan.c3b73b10.png",
     "static/media/lang-result.jpg": "/static/media/lang-result.b75d4f50.jpg",
     "static/media/language.jpg": "/static/media/language.a459362a.jpg",
     "static/media/me-tree.JPG": "/static/media/me-tree.6906243b.JPG",
@@ -49,8 +51,8 @@
   "entrypoints": [
     "static/js/runtime-main.300ee560.js",
     "static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.ed8225f4.chunk.js",
-    "static/css/main.c3274d1a.chunk.css",
-    "static/js/main.296dd572.chunk.js"
+    "static/js/2.9217fc54.chunk.js",
+    "static/css/main.af46ba84.chunk.css",
+    "static/js/main.549e6f83.chunk.js"
   ]
 }
