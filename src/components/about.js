@@ -62,10 +62,17 @@ class About extends React.Component {
                         <span class='show-small'>
                         <h3>Current Projects</h3>
                         <ul> 
-                            <li>Content writing for TypeMaster, Finland <span className="note">Freelance </span></li>
-                            <li>Content writing for a UX portfolio <span className="note">Freelance </span></li>
-                            <li>A UX design project, targeting the plant and trade community </li>
-                            <li>Web design for a blog. Building on wordpress </li>
+                            <li>Content writing for TypeMaster, Finland <span className="note">(Freelance) </span></li>
+                            <li>Content writing for UX portfolios <span className="note">(Freelance) </span></li>
+                            <li>Editor for a book <span className="note">(Freelance) </span></li>
+                            <li>Kallie: UX design project targeting the plant and trade community </li>
+                            <li>Web design for a blog on wordpress, hosted on DigitalOcean </li>
+                            <li>
+                                <span>Other </span>  
+                                <a target="_blank" href="https://www.upwork.com/o/profiles/users/~0177013edc448c881d/" rel="noopener noreferrer" >
+                                 freelancing work
+                                </a>   
+                            </li>
                         </ul>
                         </span>
                     </div>
@@ -75,10 +82,17 @@ class About extends React.Component {
                     <div className="div3">
                         <h3>Current Projects</h3>
                         <ul> 
-                            <li>Content writing for TypeMaster, Finland <span className="note">Freelance </span></li>
-                            <li>Content writing for a UX portfolio <span className="note">Freelance </span></li>
-                            <li>A UX design project, targeting the plant and trade community </li>
-                            <li>Web design for a blog. Building on wordpress </li>
+                            <li>Content writing for TypeMaster, Finland <span className="note">(Freelance) </span></li>
+                            <li>Content writing for UX portfolios <span className="note">(Freelance) </span></li>
+                            <li>Editor for a book <span className="note">(Freelance) </span></li>
+                            <li>Kallie: UX design project targeting the plant and trade community </li>
+                            <li>Web design for a blog on wordpress, hosted on DigitalOcean </li>
+                            <li>
+                                <span>Other </span>  
+                                <a target="_blank" href="https://www.upwork.com/o/profiles/users/~0177013edc448c881d/" rel="noopener noreferrer" >
+                                 freelancing work
+                                </a>   
+                            </li>
                         </ul>
                         
                     </div>
