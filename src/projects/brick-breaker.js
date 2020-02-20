@@ -18,7 +18,7 @@ class BrickBreaker extends React.Component {
                 
                 {/* page content */}
                 <Container>
-                    <h1>Brick Breaker: A Shot at Game Development</h1>
+                    <h1>Block Breaker: A Shot at Game Development</h1>
                     <Table className='info-sheet'>
                         <th>
                             Quick Info Sheet
@@ -37,7 +37,7 @@ class BrickBreaker extends React.Component {
             
                     <div>
                         <p>
-                            BrickBreaker is my second project in Unity. 
+                            BlockBreaker is my second project in Unity. 
                             It was used to deepen my knowledge beyond my first attempt 
                             - a turn-based text adventure.</p>
                     
