@@ -63,7 +63,7 @@ class Resume extends React.Component {
               textAlign: "center",
               width : "100%"}}>
             <h2>Resume</h2>
-            <a href="../Resume.pdf" download>Click to download</a>
+            <a href={resumePDF} download="carleen-thio-resume">Click to download</a>
             <div className="document">
               <Document file={resumePDF} onLoadSuccess={this.onDocumentLoadSuccess} >
                 <Page 
