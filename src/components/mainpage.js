@@ -13,8 +13,8 @@ class Mainpage extends React.Component {
           {/* <p>Welcome to my page!</p> */}
           <p className="p-role">UX Designer & Content Writer</p>
           <p> 
-            This website is designed and built using React, Javascript, 
-            Bootstrap, and CSS by yours truly.
+            I use human-centered design to create beautiful user experiences
+            and write with an appreciation for the power of language
           </p>
           {/* <p> If you want more info about this site, <a href="projects">click here</a></p> */}
           <LinkContainer to="/projects">
@@ -24,9 +24,14 @@ class Mainpage extends React.Component {
               {/* <FontAwesomeIcon className="define-arrow" icon={faLongArrowAltRight}/> */}
               </button>
             </span>
-          </LinkContainer>
-          
+          </LinkContainer> 
         </container>
+        <p className="made-by">
+          React | CSS | HTML
+          <br></br>
+          Designed and built by yours truly
+          
+        </p>
         </div>
        
         );
