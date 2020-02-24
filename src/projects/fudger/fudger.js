@@ -33,12 +33,12 @@ class Fudger extends React.Component {
                     <div className="row">
                         <div className="column"><h4>The Problem</h4>
                             <p>
-                                Food waste is a global issue plaguing modern society contributing to greenhouse gases.
+                                Food waste is a global issue plaguing modern society by contributing to greenhouse gases.
                                 It happens throughout the stages of food provisioning - including planning, shopping, cooking, dealing with leftovers, and cleaning up.
                                 But it is a problem any individual can help mitigate.
 
                                 While we have waste disposal systems in place, there must be a reason why we have so much waste
-                                in first place.
+                                in the first place.
                             </p>
                             
                             <h4>Objective</h4>
@@ -51,7 +51,8 @@ class Fudger extends React.Component {
                             <p>
                                 A digital experience that helps users streamline their grocery shopping 
                                 experience by allowing them to track their food inventory, 
-                                effectively mitigating the over-purchasing of food items. And thus, food waste.
+                                effectively mitigating the over-purchasing of food items.
+                                Thus, reducing food waste.
                             </p>
 
                             <h4>Tools Used</h4>
@@ -83,12 +84,12 @@ class Fudger extends React.Component {
                     <p>
                         Due to this project being done concurrently with class, there wasn’t much time 
                         to find a variety of users. So most of our participants were students, 
-                        particularly STEM majors. This could be a problem as that demographic 
-                        is more tech-savvy. 
+                        particularly STEM majors. It poses an issue due to them being more tech-savvy
+                        and thus limiting our ability to uncover accessibility issues.
                     </p>
                     <p>
                         Since we had limited time to explore Axure, we also ran into a couple bugs that 
-                        affected user flow and had a few functions hard-coded in the prototype. At certain
+                        affected user flow and had a few functions hard-wired into the prototype. At certain
                         times, there were server issues that caused the pages to 
                         load improperly or very slowly. This resulted in some user confusion.
                     </p>

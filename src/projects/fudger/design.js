@@ -52,6 +52,9 @@ function Design() {
                         </li>
                         <li>
                             Generate approximate dates for product expiration
+                            <div>
+                                <b>Reason:</b> Combat laziness and allow gentle reminders to use products 
+                            </div>
                         </li>
                         <li>
                             Fact of the Day

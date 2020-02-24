@@ -29,7 +29,7 @@ class Projects extends React.Component {
 						Block Breaker: A Shot at Game Development
 						<hr></hr>
 						<p className="project-info" >
-							Hands on deck! Trying out Unity. 
+							Hands on deck! Trying out Unity 
 						</p>
 					</Link>
 					<Link to="/language-learning" className="nav-grid">
