@@ -22,23 +22,23 @@ class About extends React.Component {
 	render() {
 		return (
 			<div className='about'> 
-            <div className="about-icons">
-                <h2 >
-                    About Me
-                    <span>
-                    <a target="_blank" href="https://www.upwork.com/o/profiles/users/~0177013edc448c881d/" rel="noopener noreferrer" >
-                        <FontAwesomeIcon icon={faBriefcase}/>
-                    </a>
-                    <a target="_blank" href="https://www.linkedin.com/in/carleenthio/" rel="noopener noreferrer" >
-                        <FontAwesomeIcon icon={faLinkedin}/>
-                    </a>
-                    <a target="_blank" href="http://github.com/carleenthio" rel="noopener noreferrer" >
-                        <FontAwesomeIcon icon={faGithub}/>
-                    </a>
+                <div className="about-icons">
+                    <h2 >
+                        About Me
+                        <span>
+                        <a target="_blank" href="http://github.com/carleenthio" rel="noopener noreferrer" >
+                            <FontAwesomeIcon icon={faGithub}/>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/carleenthio/" rel="noopener noreferrer" >
+                            <FontAwesomeIcon icon={faLinkedin}/>
+                        </a>
+                        <a target="_blank" href="https://www.upwork.com/o/profiles/users/~0177013edc448c881d/" rel="noopener noreferrer" >
+                            <FontAwesomeIcon icon={faBriefcase}/>
+                        </a>
                     </span>
-                </h2>
-                
-            </div>
+                    </h2>
+                    
+                </div>
                 <div class="parent">
                     <div class="div1"> 
                         <h3>Who am I?</h3>
@@ -63,8 +63,8 @@ class About extends React.Component {
                         <h3>Current Projects</h3>
                         <ul> 
                             <li>Content writing for TypeMaster, Finland <span className="note">(Freelance) </span></li>
-                            <li>Content writing for UX portfolios <span className="note">(Freelance) </span></li>
-                            <li>Editor for a book <span className="note">(Freelance) </span></li>
+                            <li>UX portfolio content writing <span className="note">(Freelance) </span></li>
+                            <li>Book editor <span className="note">(Freelance) </span></li>
                             <li>Kallie: UX design project targeting the plant and trade community </li>
                             <li>Web design for a blog on wordpress, hosted on DigitalOcean </li>
                             <li>
@@ -83,15 +83,15 @@ class About extends React.Component {
                         <h3>Current Projects</h3>
                         <ul> 
                             <li>Content writing for TypeMaster, Finland <span className="note">(Freelance) </span></li>
-                            <li>Content writing for UX portfolios <span className="note">(Freelance) </span></li>
-                            <li>Editor for a book <span className="note">(Freelance) </span></li>
+                            <li>UX portfolio content writing <span className="note">(Freelance) </span></li>
+                            <li>Book editor <span className="note">(Freelance) </span></li>
                             <li>Kallie: UX design project targeting the plant and trade community </li>
                             <li>Web design for a blog on wordpress, hosted on DigitalOcean </li>
                             <li>
-                                <span>Other </span>  
                                 <a target="_blank" href="https://www.upwork.com/o/profiles/users/~0177013edc448c881d/" rel="noopener noreferrer" >
-                                 freelancing work
-                                </a>   
+                                 Other
+                                </a> 
+                                <span> freelancing work </span>     
                             </li>
                         </ul>
                         

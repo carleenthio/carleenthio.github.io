@@ -1,6 +1,5 @@
 
 .about{
-    padding-top: 20px;
     padding-right: 3%;
     padding-left: 3% ;
     font-size: 16px;
@@ -43,14 +42,6 @@ padding-top: 32px;}
     margin-top:1px;
     border-radius: 3%;
 }
-.about h2{
-    font-size: 40px;
-    color: #083358;
-    width: 100%;
-    padding-left: 145px;
-    text-align: center;
-    text-decoration: overline;
-}
 .about h3{
     color: #083358;
     font-size: 22px;
@@ -77,17 +68,20 @@ padding-top: 32px;}
 .about a{
     color:#A2D1E6;
   }
+
+.about h2{
+padding-bottom: 0px;
+  }
 .about-icons{
     width: 100%;
     color: gray;
 }
 .about-icons span{
-    width: 50%;
-    text-align: right;
+    width: 100%;
+    display: inline-block
 }
 .about-icons a{
     color: gray;
-    float: right;
     font-size: 25px;
     padding-left: 10px;
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link} from "react-router-dom"
 import Container from 'react-bootstrap/Container'
 import '../css/projects.css'
+import '../css/index.css'
 import brick from '../pictures/brick-breaker.jpg'
 import lang from '../pictures/language.jpg'
 import fudger from '../pictures/fudger/axure.jpg'
@@ -11,7 +12,7 @@ class Projects extends React.Component {
 	render() {
 		return (
 			<div className='projects'>
-				<h3>Projects</h3>
+				<h2>Projects</h2>
 				
 				<Container className='grid-container'>
 					

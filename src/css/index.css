@@ -20,6 +20,15 @@ code {
   color: black;
   font-size: 40px;
 }
+.h2, h2{
+  padding-top: 8px;
+  padding-bottom: 5vh;
+  font-size: 40px !important;
+  color: #083358;
+  width: 100%;
+  text-align: center;
+  text-decoration: overline;
+}
 a{
   color:gray;
 }

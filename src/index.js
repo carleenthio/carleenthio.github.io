@@ -10,6 +10,7 @@ import Navigationbar from './components/navigationbar'
 import Projects from './components/projects'
 import About from './components/about'
 import resume from './components/resume'
+import Writing from './components/Writing'
 // Projects
 import Fudger from './projects/fudger/fudger'
 import BrickBreaker from './projects/brick-breaker'
@@ -32,6 +33,7 @@ class Main extends React.Component {
               <Redirect exact from="/" to="/mainpage"/>
               <Route path="/projects" component={Projects} />
               <Route path="/about" component={About} />
+              <Route path="/writing" component={Writing} />
               <Route path="/fudger" component={Fudger} />
               <Route path="/kallie" component={Kallie} />
               <Route path="/brick-breaker" component={BrickBreaker} />

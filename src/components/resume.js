@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/mainpage.css'
+import '../css/index.css'
 import { Document, Page , pdfjs} from 'react-pdf'
 import resumePDF from "../Resume.pdf";
 import { Button } from "react-bootstrap";
