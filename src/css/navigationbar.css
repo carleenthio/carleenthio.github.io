@@ -2,15 +2,15 @@
     color: #606060;
 } 
 .navbar-light .navbar-brand {
-    color: #769FCA;
+    color: #083358;
     font-weight: 900;
     font-size: 25px;
 }
 .navbar-light .navbar-brand:hover {
-    color: #A2D1E6; 
+    color: #769FCA; 
   }
 .navbar-light .navbar-brand:focus{
-    color: #769FCA;
+    color: #083358;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -24,9 +24,14 @@
 
   }
 .navbar{
+    /* position: fixed; */
+    /* top: 0; */
     padding-right:3%;
     padding-left:3%;
-    padding-top: 4%;
-    height: 1.2cm;
+    /* padding-top: 3%; */
+    height: 2cm;
+    background: white;
+    /* background-image: url("../pictures/b1.jpg"); */
+    /* background-size: cover; */
 }
 

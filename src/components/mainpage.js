@@ -3,14 +3,15 @@ import '../css/mainpage.css'
 import { LinkContainer } from "react-router-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faLongArrowAltRight} from "@fortawesome/pro-light-svg-icons"
-
+import Navigationbar from './navigationbar'
 class Mainpage extends React.Component {
   render() {
     return (
       <div className='mainpage-container'>
+        {/* <Navigationbar/> */}
         <container className='mainpage'>
           {/* <p>Welcome to my page!</p> */}
-          <p className="p-role">UX Designer/Researcher</p>
+          <p className="p-role">UX Designer & Content Writer</p>
           <p> 
             This website is designed and built using React, Javascript, 
             Bootstrap, and CSS by yours truly.
@@ -24,7 +25,6 @@ class Mainpage extends React.Component {
               </button>
             </span>
           </LinkContainer>
-          
           
         </container>
         </div>

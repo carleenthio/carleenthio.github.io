@@ -1,26 +1,9 @@
-/* .resume{
-    transform: translate(-50%, -50%); 
-    text-align: right;  
-  
-    margin: 0;
-    position: absolute;
-    top: 71%;
-    left: 50%;
-
-    -ms-transform: translate(-50%, -50%);
-} */
 .resume{
-    /* background-image: url("../pictures/f1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
-    /* width: 50%; */
     height: 100%;
     /* padding: 50px; */
     padding-right: 3%;
     padding-left:3% ;
-    padding-top:9px;
+    padding-top:5%;
 }
 .react-pdf__Page__canvas{
     outline: 30px solid #F8F8F8;

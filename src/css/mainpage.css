@@ -1,23 +1,15 @@
 
 body, html {
     height: 100%;
-    /* margin: 0;
-    background-image: url("../pictures/Background.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
+    margin: 0 auto;
   }
 .mainpage-container{
-    min-height:100%;
-    /* background: blue; */
-    /* width: 100vw; */
-    height: 94vh;
-    padding: 25px;
+    height: 100vh;
     padding-right: 5%;
     padding-left:5% ;
-    background-image: url("../pictures/Background.svg");
+    background-image: url("../pictures/b1.jpg");
     background-size: cover;
+    margin-top: -76px;
 }
 .mainpage{
     text-align: center;  
@@ -25,13 +17,13 @@ body, html {
     margin: 0;
     position: absolute;
     top: 55%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); 
+    /* left: 50%; */
+    /* -ms-transform: translate(-50%, -0%); */
+    transform: translate(-1%, -50%); 
     cursor: default;
 }
 .mainpage p{
-    color:#769FCA;
+    color:white;
     font-weight: bold;
     font-size: 25px;
     font-family: 'Source Code Pro';
@@ -59,8 +51,9 @@ body, html {
   } */
 
 .buttonpage{
-    background-color:#F0FFFF;
-    box-shadow: 5px 10px #888888;
+    /* 769FCA */
+    background-color:white;
+    box-shadow: 5px 10px #8f8f8f;
     border: none;
     padding: 12px;
     text-align: center;
@@ -68,20 +61,20 @@ body, html {
     display: inline-block;
     margin: 4px 2px;
     border-radius: 12px;
-    color: #769FCA; 
+    color: #083358; 
     font-weight: bold;
     outline:0;
 }
 .mainpage .buttonpage:hover{
-    color: #B9C9CF;
-    background-color: #E8F9F9;
+    color: #083358;
+    background-color: rgb(240, 240, 240);
     text-decoration: none;
     cursor: pointer;
 }
 
 .mainpage .buttonpage:active {
-    background-color: #E8F9F9;
-    box-shadow: 2px 4px #888888;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 2px 4px #8f8f8f;
     transform: translateY(4px);
     outline:0;
 }
@@ -91,9 +84,9 @@ body, html {
 }
 
 @media only screen and (max-width: 700px) {
+
     .mainpage p:not(:first-child){
-        color:rgb(164, 192, 221);
-        font-size: 25px;
+        font-size: 18px;
         font-family: 'Source Code Pro';
         /* text-shadow: 1px 0 grey, 0 1px grey, 1px 0 grey, 0 1px grey; */
     }
