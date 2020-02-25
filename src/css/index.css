@@ -19,7 +19,7 @@ code {
  h1{
   color: black;
   font-size: 40px;
-  font-family: 'Lato';
+  font-family: 'Merriweather';
 }
 .h2, h2{
   padding-top: 8px;
@@ -32,10 +32,19 @@ code {
 }
 h3{
   font-family: 'Lato';
+  padding-top:15px;
 }
 h4{
-  font-family: 'Montserrat';
-  padding-bottom: 10px;
+  font-family: 'Merriweather';
+  padding-bottom: 5px;
+  padding-top: 8px;
+  font-weight: 300;
+}
+h5{
+  text-decoration: none;
+  text-align: left;
+  font-weight: 200;
+
 }
 a{
   color:gray;

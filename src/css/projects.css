@@ -129,12 +129,6 @@
     padding-bottom: 10px;
     font-weight: 400;
 } */
-.fudger h5, .kallie h5{
-    text-decoration: none;
-    text-align: left;
-    font-weight: 200;
-
-}
 
 .fudger .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
     text-decoration: none;
