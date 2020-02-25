@@ -1,9 +1,7 @@
 import React from 'react'
 import '../css/mainpage.css'
 import { LinkContainer } from "react-router-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {faLongArrowAltRight} from "@fortawesome/pro-light-svg-icons"
-import Navigationbar from './navigationbar'
+
 class Mainpage extends React.Component {
   render() {
     return (

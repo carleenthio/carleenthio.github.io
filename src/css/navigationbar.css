@@ -1,5 +1,5 @@
 .navbar-light .navbar-nav .nav-link{
-    color: #606060;
+    color: #979696;
 } 
 .navbar-light .navbar-brand {
     color: #083358;
@@ -20,7 +20,7 @@
     color:#769FCA; 
   }
   .navbar-light .navbar-nav .nav-link.active{
-    color:#769FCA; 
+    color:#083358; 
 
   }
 .navbar{

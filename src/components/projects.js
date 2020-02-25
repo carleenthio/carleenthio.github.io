@@ -13,7 +13,10 @@ class Projects extends React.Component {
 		return (
 			<div className='projects'>
 				<h2>Projects</h2>
-				
+				<h5 className="sub-heading">
+					UX | Game Development | Research
+				</h5>
+            
 				<Container className='grid-container'>
 					
 					<Link to="/fudger" className="nav-grid">

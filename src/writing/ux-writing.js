@@ -10,8 +10,8 @@ class UxWriting extends React.Component {
 		return (
 			<div className='brick-breaker'>
                 <Breadcrumb>
-                    <LinkContainer to="/projects">
-                        <Breadcrumb.Item>Projects</Breadcrumb.Item>
+                    <LinkContainer to="/writing">
+                        <Breadcrumb.Item>Writing</Breadcrumb.Item>
                     </LinkContainer>
                     <Breadcrumb.Item active>UX Writings</Breadcrumb.Item>
                 </Breadcrumb>
