@@ -39,6 +39,8 @@ class About extends React.Component {
                     </h2>
                     
                 </div>
+                
+                <div className="content">
                 <div class="parent">
                     <div class="div1"> 
                         <h3>Who am I?</h3>
@@ -59,27 +61,6 @@ class About extends React.Component {
                             If I can make using a product easier or more effortless and enjoyable, 
                             I consider that a job well done.
                         </p>
-                        <span class='show-small'>
-                        <h3>Current Projects</h3>
-                        <ul> 
-                            <li>Content writing for TypeMaster, Finland <span className="note">(Freelance) </span></li>
-                            <li>UX portfolio content writing <span className="note">(Freelance) </span></li>
-                            <li>Book editor <span className="note">(Freelance) </span></li>
-                            <li>Kallie: UX design project targeting the plant and trade community </li>
-                            <li>Web design for a blog on wordpress, hosted on DigitalOcean </li>
-                            <li>
-                                <span>Other </span>  
-                                <a target="_blank" href="https://www.upwork.com/o/profiles/users/~0177013edc448c881d/" rel="noopener noreferrer" >
-                                 freelancing work
-                                </a>   
-                            </li>
-                        </ul>
-                        </span>
-                    </div>
-                    <div class="div2"> 
-                        <img className='profile' src={profile} alt="I'm hugging a tree"/>    
-                    </div>
-                    <div className="div3">
                         <h3>Current Projects</h3>
                         <ul> 
                             <li>Content writing for TypeMaster, Finland <span className="note">(Freelance) </span></li>
@@ -94,9 +75,19 @@ class About extends React.Component {
                                 <span> freelancing work </span>     
                             </li>
                         </ul>
-                        
+                        {/* <span class='show-small'>
+    
+                        <img className='profile' src={profile} alt="I'm hugging a tree"/> 
+                        </span> */}
                     </div>
-                    <div class="div4"> 
+                    <div class="div2"> 
+                        <img className='profile' src={profile} alt="I'm hugging a tree"/>    
+                    </div>
+                    </div>
+                  
+                        
+                
+                    {/* <div class="div4"> 
                         <h3>What else do I do?</h3>
                         <p>In my spare time, I enjoy doing a lot of different things including hiking and boardgames.
                             Here are the top 3 things that I have been enjoying:</p>
@@ -151,7 +142,7 @@ class About extends React.Component {
                         </p>
                         </container>
                         
-                        </div>
+                        </div> */}
                 </div>
                 {/* <hr align='left'/> */}
                 </div>
