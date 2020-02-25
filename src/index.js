@@ -19,6 +19,9 @@ import Kallie from './projects/kallie'
 
 //Writing
 import uxWrite from './writing/ux-writing'
+import ostara from './writing/ostara'
+
+import forbidden from './inform-user/inProgress'
 
 class Main extends React.Component { 
   render() {
@@ -43,7 +46,8 @@ class Main extends React.Component {
               <Route path="/brick-breaker" component={BrickBreaker} />
               <Route path="/language-learning" component={LanLearn} />
               <Route path="/ux-writing" component={uxWrite}/>
-              
+              <Route path="/ostara" component={ostara}/>
+              <Route path="/forbidden" component={forbidden}/>
               <Redirect to="/mainpage" />
 
             </Switch>

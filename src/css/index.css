@@ -2,11 +2,11 @@ html, body{
   height: 100%;
   width: 100%;
   /* Doesn't allow copy paste */
-  /* -webkit-user-select: none;
+  -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   -moz-user-select: none;
-  user-select: none; */
+  user-select: none;
 }
 body {
   margin: 0;

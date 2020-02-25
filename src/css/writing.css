@@ -1,10 +1,13 @@
-.writing{
+.writing body{
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     -moz-user-select: none;
     user-select: none;
     /* text-align: center; */
+}
+.writing h1{
+    padding-bottom:15px;
 }
 .writing h2{
     padding-bottom:10px;
@@ -17,6 +20,8 @@
     text-decoration: line-through;
     text-decoration-style: wavy;
     text-decoration-color:rgba(118, 159, 202, 0.37);
+    pointer-events: none;
+
 }
 .writing-button{
     border: 1px solid #979696;

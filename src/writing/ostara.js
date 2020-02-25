@@ -1,7 +1,6 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container'
-import '../css/projects.css'
-import { Table } from 'react-bootstrap'
+import '../css/writing.css'
 import { LinkContainer } from "react-router-bootstrap";
 import Breadcrumb from 'react-bootstrap/Breadcrumb'
 

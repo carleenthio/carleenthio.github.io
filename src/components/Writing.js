@@ -9,7 +9,7 @@ function Writing() {
             <h2>Writing</h2>
             <h5 className="sub-heading">Alongside my portfolio writings, here are a few more!</h5>
             <div className="writing-project-left">
-                <LinkContainer to="/ux-writing" className="title-container"> 
+                <LinkContainer to="/forbidden" className="title-container"> 
                 <h4 className="title">UX Writings</h4>
                 </LinkContainer>
                 <p>
@@ -21,7 +21,7 @@ function Writing() {
                     <br></br>
                     User research + Empathy + Concise
                 </p>
-                <LinkContainer to="/ux-writing" className="button-container">     
+                <LinkContainer to="/forbidden" className="button-container">     
                     <p className="writing-button">
                     Explore
                     {/* <FontAwesomeIcon className="define-arrow" icon={faLongArrowAltRight}/> */}
@@ -29,7 +29,7 @@ function Writing() {
                 </LinkContainer> 
             </div>
             <div className="writing-project-right">
-                <LinkContainer to="/ux-writing" className="title-container"> 
+                <LinkContainer to="/forbidden" className="title-container"> 
                     <h4 className="title">Ostara: The Devil</h4>
                 </LinkContainer>
                 <p>
@@ -39,7 +39,7 @@ function Writing() {
                     <br></br>
                     Short Story + Fiction
                 </p>
-                <LinkContainer to="/ux-writing" className="button-container">     
+                <LinkContainer to="/forbidden" className="button-container">     
                     <p className="writing-button">
                     Explore
                     {/* <FontAwesomeIcon className="define-arrow" icon={faLongArrowAltRight}/> */}
