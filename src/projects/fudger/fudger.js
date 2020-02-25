@@ -109,20 +109,20 @@ class Fudger extends React.Component {
                         <img className='design-process' alt='In-depth four stage double diamon process' src={design} width="90%"/>
                        
                      {/* <ControlledTabs /> */}
-                    <hr/>
+                   
                 
                 <h3> Discovery</h3>
                 <Discover/>
-                <hr/>
+               
                 <h3> Define </h3>
                 <Define/>
-                <hr/>
+           
                 <h3> Design </h3>
                 <Design/>
-                <hr/>
+             
                 <h3>Develop</h3>
                 <Develop/> 
-                <hr/>
+                
 
                 </Container>
 			</div>

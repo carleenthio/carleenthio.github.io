@@ -33,18 +33,6 @@ class Projects extends React.Component {
 							Hands on deck! Trying out Unity 
 						</p>
 					</Link>
-					<Link to="/language-learning" className="nav-grid">
-						<img className='img-grid' alt='Language learning logo' src={lang}/>
-						Language Learning Strategized! 
-						<hr></hr>
-						<p className="project-info" >
-							A look into an alternative language learning tactic 
-							based on proficieny level
-						</p>
-					</Link>
-					<Link to="/" className="nav-grid" className="fake-grid">
-						
-					</Link>
 					<Link to="/kallie" className="nav-grid">
 						<img className='img-grid' alt='Kallie logo' src={kallie}/>
 						[WIP] Kallie: UX Research & Design 
@@ -54,6 +42,20 @@ class Projects extends React.Component {
 							cognitive load
 						</p>
 					</Link>
+					<Link to="/" className="nav-grid" className="fake-grid">
+						
+					</Link>
+					<Link to="/language-learning" className="nav-grid">
+						<img className='img-grid' alt='Language learning logo' src={lang}/>
+						Language Learning Strategized! 
+						<hr></hr>
+						<p className="project-info" >
+							A look into an alternative language learning tactic 
+							based on proficieny level
+						</p>
+					</Link>
+					
+					
 					</Container>
 				
 			</div>

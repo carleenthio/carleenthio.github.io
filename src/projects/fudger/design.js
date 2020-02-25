@@ -19,7 +19,7 @@ function Design() {
             and timing task completion.</p>
 
            
-                <hr/>
+                
                 <h4> My Low-Fidelity Paper Prototype</h4>
                 <h5>The Paper Prototype</h5>
                 <p>
@@ -102,7 +102,7 @@ function Design() {
                     </ul>
                 </p>
                 
-            <hr/>
+         
             <h4>High-fidelity Prototype</h4>
             <p>
                 At the end of the converging stage of the prototype, where the team looked at
