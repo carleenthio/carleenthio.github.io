@@ -121,16 +121,15 @@
     padding-bottom: 10px;
     font-weight: 200;
 }
-.fudger h4, .kallie h4{
-    color: black;
+
+/* .fudger h4, .kallie h4{
     text-decoration: none;
     text-align: left;
-    /* font-size: 35px !important; */
+    font-family: 'Montserrat';
     padding-bottom: 10px;
-    font-weight: 300;
-}
+    font-weight: 400;
+} */
 .fudger h5, .kallie h5{
-    color: black;
     text-decoration: none;
     text-align: left;
     font-weight: 200;
