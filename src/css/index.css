@@ -43,7 +43,7 @@ h4{
 h5{
   text-decoration: none;
   text-align: left;
-  font-weight: 200;
+  font-weight: 200 !important;
 
 }
 a{
