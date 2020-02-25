@@ -42,7 +42,7 @@ class Projects extends React.Component {
 							based on proficieny level
 						</p>
 					</Link>
-					<Link to="/" className="nav-grid">
+					<Link to="/" className="nav-grid" className="fake-grid">
 						
 					</Link>
 					<Link to="/kallie" className="nav-grid">
