@@ -18,7 +18,7 @@ class UxWriting extends React.Component {
                 
                 {/* page content */}
                 <Container>
-                <h1> UX Writings</h1>
+                <h1 className="writing-title"> UX Writings</h1>
                 <span>
                     <h3>UX Writing Challenge: Day 1</h3>
                     <p>

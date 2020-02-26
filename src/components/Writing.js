@@ -9,7 +9,7 @@ function Writing() {
             <h2>Writing</h2>
             <h5 className="sub-heading">Alongside my portfolio writings, here are a few more!</h5>
             <div className="writing-project-left">
-                <LinkContainer to="/forbidden" className="title-container"> 
+                <LinkContainer to="/ux-writing" className="title-container"> 
                 <h4 className="title">UX Writings</h4>
                 </LinkContainer>
                 <p>
@@ -21,7 +21,7 @@ function Writing() {
                     <br></br>
                     User research + Empathy + Conciseness
                 </p>
-                <LinkContainer to="/forbidden" className="button-container">     
+                <LinkContainer to="/ux-writing" className="button-container">     
                     <p className="writing-button">
                     Explore
                     {/* <FontAwesomeIcon className="define-arrow" icon={faLongArrowAltRight}/> */}
@@ -29,7 +29,7 @@ function Writing() {
                 </LinkContainer> 
             </div>
             <div className="writing-project-right">
-                <LinkContainer to="/forbidden" className="title-container"> 
+                <LinkContainer to="/ostara" className="title-container"> 
                     <h4 className="title">Ostara: The Devil</h4>
                 </LinkContainer>
                 <p>
@@ -37,9 +37,27 @@ function Writing() {
                     <br></br>
                     Started out as a project to write a background story for the 78 cards in the deck 
                     <br></br>
-                    Short Story + Fiction
+                    Short Story + Fiction + Creative
                 </p>
-                <LinkContainer to="/forbidden" className="button-container">     
+                <LinkContainer to="/ostara" className="button-container">     
+                    <p className="writing-button">
+                    Explore
+                    {/* <FontAwesomeIcon className="define-arrow" icon={faLongArrowAltRight}/> */}
+                    </p>
+                </LinkContainer> 
+            </div>
+            <div className="writing-project-left">
+                <LinkContainer to="/thesisdd" className="title-container"> 
+                    <h4 className="title">Can Brainless Jellyfish Or Ants Be Self-Aware?</h4>
+                </LinkContainer>
+                <p>
+                    A look into animal consciousness and self-awareness
+                    <br></br>
+                    Small excerpt from the 3500 word (excluding cover page and bibiliography) thesis
+                    <br></br>
+                    Thesis + Academic + APA Style
+                </p>
+                <LinkContainer to="/thesis" className="button-container">     
                     <p className="writing-button">
                     Explore
                     {/* <FontAwesomeIcon className="define-arrow" icon={faLongArrowAltRight}/> */}

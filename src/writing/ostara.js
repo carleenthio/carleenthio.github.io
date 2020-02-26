@@ -17,7 +17,7 @@ class Ostara extends React.Component {
                 
                 {/* page content */}
                 <Container>
-                <h1> Ostara: The Devil</h1>
+                <h1 className="writing-title"> Ostara: The Devil</h1>
                 <p>“Specimen 19732…” he murmured softly under his breath, wings fluttering ever so lightly.</p>
                 <p>He walked slowly to an empty spot on the shelf, looked closely at the two humans he had caught,  feeling of a wave of sadness and pity slowly swallowing him. It has taken him 3 long years to understand how to obtain them. A cloud of dust whooshed around as he set them down. He waved his hands around but the dust just passed through them.</p>
                 <p>He stopped. Sighed. And looked around. The place has become a lot brighter than when he first arrived. Every specimen jar lit up as they are placed on the shelf. The yellow light emitting from them bounced off the dark green walls; it was bright and yet still so dark, and so dull, he thought to himself.</p>

@@ -1,9 +1,10 @@
-.writing body{
+.writing {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     -moz-user-select: none;
     user-select: none;
+    border-bottom: 80px;
     /* text-align: center; */
 }
 .writing h1{
@@ -18,9 +19,13 @@
 }
 .title-container:hover{
     text-decoration: line-through;
-    text-decoration-style: wavy;
-    text-decoration-color:rgba(118, 159, 202, 0.37);
-    pointer-events: none;
+    /* text-decoration-style: wavy; */
+    text-decoration-color:rgba(118, 159, 202, 0.555);
+    /* pointer-events: none; */
+    /* background-color: rgba(118, 159, 202, 0.37); */
+    
+    /* width: fit-content;
+    background-image: linear-gradient(to right, rgba(118, 159, 202) 0%, rgba(118, 159, 202, 0.37) 100%) */
 
 }
 .writing-button{
@@ -39,6 +44,7 @@
 .writing-button:hover{
     background-color: black;
     color: white;
+    
 } 
 .writing-project-left{
     margin: auto;
@@ -49,4 +55,8 @@
     margin: auto;
     width: 65%;
     text-align: end;
+}
+
+.writing-title{
+    padding-bottom: 20px;
 }

@@ -20,8 +20,11 @@ import Kallie from './projects/kallie'
 //Writing
 import uxWrite from './writing/ux-writing'
 import ostara from './writing/ostara'
+import Thesis from './writing/thesis'
 
-import forbidden from './inform-user/inProgress'
+//errors
+import forbidden from './error-messages/inProgress'
+import notFound from './error-messages/not-found-404'
 
 class Main extends React.Component { 
   render() {
@@ -47,8 +50,10 @@ class Main extends React.Component {
               <Route path="/language-learning" component={LanLearn} />
               <Route path="/ux-writing" component={uxWrite}/>
               <Route path="/ostara" component={ostara}/>
+              <Route path="/thesis" component={Thesis}/>
               <Route path="/forbidden" component={forbidden}/>
-              <Redirect to="/mainpage" />
+              <Route path="/404" component={notFound}/>
+              <Redirect to="/404" />
 
             </Switch>
           </HashRouter>
