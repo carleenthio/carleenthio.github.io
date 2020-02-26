@@ -6,6 +6,7 @@
 }
 .react-pdf__Page__canvas{
     outline: 30px solid #F8F8F8;
+    margin-top: 40px;
     margin-bottom: 40px ;
 }
 .document{

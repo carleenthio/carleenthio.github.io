@@ -18,14 +18,39 @@ class Resume extends React.Component {
         };
 
         this.onDocumentLoadSuccess = this.onDocumentLoadSuccess.bind(this);
+        this.onPageLoadSuccess = this.onPageLoadSuccess.bind(this);
         this.handleNext = this.handleNext.bind(this);
         this.handlePrevious = this.handlePrevious.bind(this);
     }
      
     onDocumentLoadSuccess = ({ numPages }) => {
         this.setState({ numPages });
-      }
 
+      }
+    onPageLoadSuccess(page) {
+      // https://github.com/wojtekmaj/react-pdf/issues/332#issuecomment-458121654
+      const textLayers = document.querySelectorAll(".react-pdf__Page__textContent");
+      textLayers.forEach(layer => {
+        const { style } = layer;
+        style.top = "0";
+        style.left = "0";
+        style.transform = "";
+      });
+  
+      // https://github.com/wojtekmaj/react-pdf/issues/74
+      const parentDiv = document.querySelector('#resume');
+  
+      if (parentDiv.clientWidth > 750) {
+        this.setState({ scale: 1.2 });
+      }
+      else{
+        let pageScale = parentDiv.clientWidth / page.originalWidth;
+  
+        if (this.state.scale !== pageScale) {
+          this.setState({ scale: pageScale });
+        }
+      }
+    }
     handleNext() {
         if (this.state.pageNumber < this.state.numPages) {
           this.setState((state) => ({pageNumber : state.pageNumber + 1}));
@@ -53,36 +78,30 @@ class Resume extends React.Component {
     // }
   }   
     render() {
-        const { pageNumber} = this.state;
+        // const { pageNumber} = this.state;
         return (   
-            <div className='resume' 
+            <div className='resume' id='resume'
             style={{
-              marginTop: "10px",
-              display : "grid",
-              justifyContent : "center", 
-              textAlign: "center",
-              width : "100%"}}>
+              display: "grid",
+              justifyContent: "center",
+              textAlign: "center"
+              }}>
+                
             <h2>Resume</h2>
-            <a href={resumePDF} download="carleen-thio-resume">Click to download</a>
-            <div className="document">
-              <Document file={resumePDF} onLoadSuccess={this.onDocumentLoadSuccess} >
-                <Page 
-                  onLoadSuccess={() => this.removeTextLayerOffset()} 
-                  pageNumber={pageNumber} 
-                  scale={this.state.scale}
-                />
-              </Document>
-            </div>
+            <a href={resumePDF} download="carleen-thio-resume">Click to Download</a>
+            <Document file={resumePDF} onLoadSuccess={this.onDocumentLoadSuccess}>
+              <Page
+                onLoadSuccess={this.onPageLoadSuccess}
+                pageNumber={this.state.pageNumber}
+                scale={this.state.scale} />
+            </Document>
+            
             <table className="button-table">
                 <tr>
                     <td><Button variant="secondary" onClick={this.handlePrevious}>Previous Page</Button></td>
                     <td><Button variant="secondary" onClick={this.handleNext}>Next Page</Button></td>
                 </tr>
             </table>
-              <div className="left"></div>
-              <div className="right"></div>
-              <div className="top"></div>
-              <div className="bottom"></div>
             </div>
 
         );
