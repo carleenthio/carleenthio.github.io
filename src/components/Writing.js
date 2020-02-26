@@ -19,7 +19,7 @@ function Writing() {
                     Someone wrote those. It's not always perfect 
                     but that's where UX writers come in. 
                     <br></br>
-                    User research + Empathy + Concise
+                    User research + Empathy + Conciseness
                 </p>
                 <LinkContainer to="/forbidden" className="button-container">     
                     <p className="writing-button">
