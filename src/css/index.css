@@ -1,6 +1,7 @@
 html, body{
   height: 100%;
   width: 100%;
+  padding-top: 8px;
   /* Doesn't allow copy paste */
   -webkit-user-select: none;
   -moz-user-select: none;

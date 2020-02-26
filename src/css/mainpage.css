@@ -2,6 +2,7 @@
 body, html {
     height: 100%;
     margin: 0 auto;
+    
   }
 .mainpage-container{
     height: 100vh;
@@ -9,7 +10,7 @@ body, html {
     padding-left:5% ;
     background-image: url("../pictures/b1.jpg");
     background-size: cover;
-    margin-top: -76px;
+    margin-top: -72px;
 }
 .mainpage{
     text-align: center;  
