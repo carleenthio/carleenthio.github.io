@@ -1,6 +1,47 @@
+.not-found{
+    position:relative;
+    width: 100%;
+    overflow: hidden;
+}
+.img-error{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.error-404-button{
+  width: 100%;
+  position: absolute;;
+  top:50%;
+  transform: translate(46%, 60%);
+  color:black;
+
+}
+.error-404-button button{ 
+    background-color:white;
+    box-shadow: 5px 10px #8f8f8f;
+    border: none;
+    padding: 7px 30px 7px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    color: #083358; 
+    font-family: 'Source Code Pro';
+    font-weight: bold;
+    outline:0;
+}
 .email-me-404{
-    position: absolute;
-    left: 100px;
-    top: 150px;
-    color: rgb(39, 90, 15);
+    color: black;
+}
+.error-404-button button:hover, .email-me-404:hover{ 
+    color: black;
+    background-color: rgb(240, 240, 240);
+    text-decoration: none;
+    cursor: pointer;
+}
+.error-404-button button:active {
+    background-color: rgb(240, 240, 240);
+    box-shadow: 2px 4px #979696;
+    transform: translateY(4px);
+    outline:0;
 }

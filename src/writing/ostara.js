@@ -3,11 +3,12 @@ import Container from 'react-bootstrap/Container'
 import '../css/writing.css'
 import { LinkContainer } from "react-router-bootstrap";
 import Breadcrumb from 'react-bootstrap/Breadcrumb'
+import card from '../pictures/ostara.jpg'
 
 class Ostara extends React.Component {    
 	render() {
 		return (
-			<div className='Ostara'>
+			<div className='ostara'>
                 <Breadcrumb>
                     <LinkContainer to="/writing">
                         <Breadcrumb.Item>Writing</Breadcrumb.Item>
@@ -16,7 +17,8 @@ class Ostara extends React.Component {
                 </Breadcrumb>
                 
                 {/* page content */}
-                <Container>
+                <Container className="writing-content">
+                <img className='ostara-img' src={card} alt="The Ostara card for the devil"/>
                 <h1 className="writing-title"> Ostara: The Devil</h1>
                 <p>“Specimen 19732…” he murmured softly under his breath, wings fluttering ever so lightly.</p>
                 <p>He walked slowly to an empty spot on the shelf, looked closely at the two humans he had caught,  feeling of a wave of sadness and pity slowly swallowing him. It has taken him 3 long years to understand how to obtain them. A cloud of dust whooshed around as he set them down. He waved his hands around but the dust just passed through them.</p>

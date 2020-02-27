@@ -10,7 +10,7 @@ function Writing() {
             <h5 className="sub-heading">Alongside my portfolio writings, here are a few more!</h5>
             <div className="writing-project-left">
                 <LinkContainer to="/ux-writing" className="title-container"> 
-                <h4 className="title">UX Writings</h4>
+                <h4 className="title">UX Writings [WIP]</h4>
                 </LinkContainer>
                 <p>
                     Error messages? Confirmation pages? Updates for your shipped package?

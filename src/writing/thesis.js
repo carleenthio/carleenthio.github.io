@@ -7,7 +7,7 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb'
 class Thesis extends React.Component {    
 	render() {
 		return (
-			<div className='Ostara'>
+			<div className='thesis'>
                 <Breadcrumb>
                     <LinkContainer to="/writing">
                         <Breadcrumb.Item>Writing</Breadcrumb.Item>
@@ -16,7 +16,7 @@ class Thesis extends React.Component {
                 </Breadcrumb>
                 
                 {/* page content */}
-                <Container>
+                <Container className="writing-content">
                     <h1 className="writing-title">Can Brainless Jellyfish Or Ants Be Self-Aware?</h1>
                     <h4>Abstract</h4>
                     <p>Consciousness and self-awareness in animals is a long-debated topic and one that has yet had a definitive answer. For animal consciousness, it was declared by the Cambridge Declaration on Consciousness (2012) that all animals are conscious. In addition to this paper providing evidence that consciousness does not arise from a specific brain region, it will also explain the relationship between consciousness and self-awareness. For example, Cleeremans (2011) suggested that consciousness arises from a being knowing it is in a certain state and caring about that state, that is to say, the being is conscious if it is aware of its subjective experience. If this is the case, then consciousness requires some sort of awareness. However, this paper will also attempt to explain why consciousness and self-awareness are not necessary for one another, but instead, work together as an integrated system. Due to this, it is important to discuss theories of both consciousness and self-awareness and highlight the similarities. One similarity is that both consciousness and self-awareness are on a gradient scale. That is, there are different degrees of consciousness and self-awareness; one animal could be more conscious than another.</p>
@@ -37,8 +37,15 @@ class Thesis extends React.Component {
                     <p>While it is agreed upon that all humans have consciousness, the debate around whether animals have consciousness has been around for a long time. Even though it is not clear yet where consciousness might stem from, a group of notable scientist, including cognitive neuroscientists, and computational neuroscientists, has signed The Cambridge Declaration on Consciousness (2012). This declaration states that humans are not unique in the ability to have consciousness, instead, all animals are capable and do have consciousness. It further outlines that although animals are unable to communicate their thoughts and internal states, there is evidence that they all possess the neurological substrate that is correlated to consciousness.</p>
                     <p>This is further supported by Mashour and Alkire (2013), who did a cross-analysis between many disciplines including evolutionary neurobiology, anesthesiology and animal psychology. They agreed that while there is strong evidence that all animals have consciousness, the differences lie in how rich each animal experience consciousness.</p>
                     <p>Due to the differences in the experience of consciousness, for this paper, consciousness would need to be defined. While there is no agreed upon definition, I will be defining consciousness as it is implied by The Cambridge Declaration on Consciousness, that is, a being is conscious if it has a conscious state. While there are several conscious states to choose from, we would be using the qualitative state for this definition. The qualitative state involves the being to be able to experience qualitative or experiential properties, also known as qualia (Van Gulick, 2018). Since this definition requires subjective experience or qualia in order to be conscious, it converges with Cleeremans&rsquo; argument.</p>
-                
-                    <h5>If interested, email me for the rest</h5>
+                    
+                    <br></br>
+                    <h5>
+                        If interested,  
+                        <span> 
+                            <a href = "mailto:carleen.thio@gmail.com?subject=Requesting Brainless Jellyfish Copy!"> email me </a>
+                        </span>
+			             for the rest
+                    </h5>
                     <br></br>
                 </Container>
 			</div>
