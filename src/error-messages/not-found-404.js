@@ -9,7 +9,7 @@ class NotFound extends React.Component {
 					<div className="error-404-button">
                     <button >
 					<a className="email-me-404"
-					href = "mailto:test@example.com?subject=Found a 404!&body=I found an error on [page] while [what led you here]!">Help Bot</a>
+					href = "mailto:carleen.thio@gmail.com?subject=Found a 404!&body=I found an error on [page] while [what led you here]!">Help Bot</a>
 		
                     {/* <FontAwesomeIcon className="define-arrow" icon={faLongArrowAltRight}/> */}
                     </button>

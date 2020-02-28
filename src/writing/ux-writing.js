@@ -21,7 +21,7 @@ class UxWriting extends React.Component {
                 <Container className="writing-content">
                 <h1 className="writing-title"> UX Writings [WIP]</h1>
                 <h3>Error Messages</h3>
-                <p>Below will take you to the actual error pages.</p>
+                <p>Below will take you to actual error pages on this website.</p>
                 <p>Explore away!</p>
                 <LinkContainer to="/forbidden">
                     <span>

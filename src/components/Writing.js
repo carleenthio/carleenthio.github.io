@@ -47,7 +47,7 @@ function Writing() {
                 </LinkContainer> 
             </div>
             <div className="writing-project-left">
-                <LinkContainer to="/thesisdd" className="title-container"> 
+                <LinkContainer to="/thesis" className="title-container"> 
                     <h4 className="title">Can Brainless Jellyfish Or Ants Be Self-Aware?</h4>
                 </LinkContainer>
                 <p>
