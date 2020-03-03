@@ -73,6 +73,19 @@
     color: #769FCA;
     text-decoration: none;
 }
+.back-up{
+    color: #769FCA;
+    font-size: 45px;
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    margin-right: 55px;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+.back-up:hover{
+    font-size: 55px;
+}
 /* Breadcrumb */
 .breadcrumb-item.active {
     color: black;

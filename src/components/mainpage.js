@@ -7,7 +7,7 @@ import r2 from '../pictures/reviews/r2.png'
 import r3 from '../pictures/reviews/r3.png'
 import r4 from '../pictures/reviews/r4.png'
 import r5 from '../pictures/reviews/r5.png'
-import {faChevronDoubleDown, faArrowAltCircleDown} from "@fortawesome/pro-duotone-svg-icons"
+import {faChevronDoubleDown} from "@fortawesome/pro-duotone-svg-icons"
 class Mainpage extends React.Component {
   render() {
     return (
@@ -36,11 +36,11 @@ class Mainpage extends React.Component {
           Designed and built by yours truly
           
         </p>
-        <a href= '#review-section' className="scroll-down">
+        {/* <a href= '#review-section' className="scroll-down">
           <FontAwesomeIcon className="down-icon" icon={faChevronDoubleDown}/>
           Reviews
           <FontAwesomeIcon className="down-icon" icon={faChevronDoubleDown}/>
-        </a>
+        </a> */}
         <div className="review-section" id="review-section">
         <h2>Client Reviews</h2>
         

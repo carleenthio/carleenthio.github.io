@@ -4,21 +4,23 @@ import { useState } from 'react'
 import '../../css/projects.css'
 import { LinkContainer } from "react-router-bootstrap";
 import Breadcrumb from 'react-bootstrap/Breadcrumb'
+import { HashLink as Link } from 'react-router-hash-link';
 
 import Discover from './discover.js'
 import Define from './define.js'
 import Design from './design.js'
 import Develop from './develop.js'
 import Carousel from '../../components/carousel'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import design from '../../pictures/fudger/design-process.png'
 import diamond from '../../pictures/fudger/diamond-design.png'
-
+import {faArrowAltCircleUp} from "@fortawesome/free-solid-svg-icons"
   
 class Fudger extends React.Component {
 	render() {
 		return (
-			<div className="fudger">
+			<div className="fudger" id="fudger">
                 <Breadcrumb>
                     <LinkContainer to="/projects">
                         <Breadcrumb.Item>Projects</Breadcrumb.Item>
@@ -26,6 +28,10 @@ class Fudger extends React.Component {
                     <Breadcrumb.Item active>Füdger</Breadcrumb.Item>
                 </Breadcrumb>
                 <Container>
+                    
+                    <Link to="/fudger#fudger">
+                        <FontAwesomeIcon className="back-up" icon={faArrowAltCircleUp}/>
+                    </Link>
                     <h1>Füdger: A UX Research/Design Project</h1>
                     <br></br>
                     <h2>Project Snapshot</h2>
