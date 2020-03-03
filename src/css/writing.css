@@ -69,14 +69,9 @@
 .thesis a{
     color: #769FCA;
 }
-
-.thesis a:hover{
-    /* color: #083358; */
-}
-
-/* ostara */
-.ostara .writing-content{
-    /* position: relative; */
+.ux-writing hr{
+    width: 50%;
+    margin-left:0;
 }
 .ostara .ostara-img{
     width: 30%;
