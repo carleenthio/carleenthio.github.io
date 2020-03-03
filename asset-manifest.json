@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.055ee860.chunk.css",
-    "main.js": "/static/js/main.be28223e.chunk.js",
-    "main.js.map": "/static/js/main.be28223e.chunk.js.map",
+    "main.css": "/static/css/main.e3ecc2c8.chunk.css",
+    "main.js": "/static/js/main.1b0f02d9.chunk.js",
+    "main.js.map": "/static/js/main.1b0f02d9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.35a83a75.js",
     "runtime-main.js.map": "/static/js/runtime-main.35a83a75.js.map",
     "static/css/2.47e06e2e.chunk.css": "/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.841aaefa.chunk.js": "/static/js/2.841aaefa.chunk.js",
-    "static/js/2.841aaefa.chunk.js.map": "/static/js/2.841aaefa.chunk.js.map",
+    "static/js/2.2609a324.chunk.js": "/static/js/2.2609a324.chunk.js",
+    "static/js/2.2609a324.chunk.js.map": "/static/js/2.2609a324.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c8e556f91eb8c2f1b467aaa6a8103d50.js": "/precache-manifest.c8e556f91eb8c2f1b467aaa6a8103d50.js",
+    "precache-manifest.06b3d08e6692f4a7ba0e0986868819c8.js": "/precache-manifest.06b3d08e6692f4a7ba0e0986868819c8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.055ee860.chunk.css.map": "/static/css/main.055ee860.chunk.css.map",
+    "static/css/main.e3ecc2c8.chunk.css.map": "/static/css/main.e3ecc2c8.chunk.css.map",
     "static/media/404.svg": "/static/media/404.3d3c8498.svg",
     "static/media/Resume.pdf": "/static/media/Resume.858f6514.pdf",
     "static/media/axure.jpg": "/static/media/axure.77efbcd3.jpg",
@@ -49,13 +49,18 @@
     "static/media/paper-add.JPG": "/static/media/paper-add.c93d91bb.JPG",
     "static/media/paper-grocery.JPG": "/static/media/paper-grocery.8204ffd2.JPG",
     "static/media/paper-inventory.JPG": "/static/media/paper-inventory.00725417.JPG",
+    "static/media/r1.png": "/static/media/r1.fb9c05de.png",
+    "static/media/r2.png": "/static/media/r2.35504261.png",
+    "static/media/r3.png": "/static/media/r3.105cf729.png",
+    "static/media/r4.png": "/static/media/r4.d823f852.png",
+    "static/media/r5.png": "/static/media/r5.87ea3f6d.png",
     "static/media/valkyrie.jpg": "/static/media/valkyrie.33dbfb58.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.35a83a75.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.841aaefa.chunk.js",
-    "static/css/main.055ee860.chunk.css",
-    "static/js/main.be28223e.chunk.js"
+    "static/js/2.2609a324.chunk.js",
+    "static/css/main.e3ecc2c8.chunk.css",
+    "static/js/main.1b0f02d9.chunk.js"
   ]
 }
