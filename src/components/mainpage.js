@@ -36,11 +36,11 @@ class Mainpage extends React.Component {
           Designed and built by yours truly
           
         </p>
-        {/* <a href= '#review-section' className="scroll-down">
+        <a href= '#review-section' className="scroll-down">
           <FontAwesomeIcon className="down-icon" icon={faChevronDoubleDown}/>
           Reviews
           <FontAwesomeIcon className="down-icon" icon={faChevronDoubleDown}/>
-        </a> */}
+        </a>
         <div className="review-section" id="review-section">
         <h2>Client Reviews</h2>
         
