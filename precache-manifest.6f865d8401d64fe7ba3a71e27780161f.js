@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e07b1b8eec0d8f4d4e0f0fa80c27a813",
+    "revision": "3e43847ee89148648ce37660b4e3f17c",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "11c68f8176a0bf4e0de7",
+    "revision": "63cc703b4034f6e585ca",
     "url": "/static/css/main.20964647.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.49c66ea4.chunk.js"
   },
   {
-    "revision": "11c68f8176a0bf4e0de7",
-    "url": "/static/js/main.b3e63db1.chunk.js"
+    "revision": "63cc703b4034f6e585ca",
+    "url": "/static/js/main.aff57013.chunk.js"
   },
   {
     "revision": "c50aa15782a9b0f663bb",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/brick-breaker.c621a87f.jpg"
   },
   {
-    "revision": "77401ba5e5f8dc0ccca82f4d1aa70cda",
-    "url": "/static/media/day1.77401ba5.svg"
+    "revision": "ef71f41dcf8424d6a7a1ca474b1f5437",
+    "url": "/static/media/day1.ef71f41d.svg"
   },
   {
     "revision": "54760b60a80a02c512d4419fddcfeae5",
