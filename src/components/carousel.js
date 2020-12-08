@@ -5,6 +5,8 @@ import { useState } from 'react'
 import f1  from '../pictures/fudger/final-screen-1.png'
 import f2  from '../pictures/fudger/final-screen-2.png'
 import f3  from '../pictures/fudger/final-screen-3.png'
+
+import '../css/projects.css'
 function ControlledCarousel() {
     const [index, setIndex] = useState(0);
     const [direction, setDirection] = useState(null);
@@ -18,13 +20,11 @@ function ControlledCarousel() {
         <div className="carousel">
         <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
         <Carousel.Item>
-           
             <img
             className="carousel-img"
             src={f1}
             alt="First slide"
             />
-        
         </Carousel.Item>
         <Carousel.Item>
             <img
@@ -32,7 +32,6 @@ function ControlledCarousel() {
             src={f2}
             alt="Second slide"
             />
-    
         </Carousel.Item>
         <Carousel.Item>
             <img

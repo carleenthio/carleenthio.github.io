@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/index.css'
 import { Document, Page , pdfjs} from 'react-pdf'
 import resumePDF from "../Resume.pdf";
+import cvPDF from "../CV.pdf";
 import { Button } from "react-bootstrap";
 import '../css/resume.css'
 
@@ -88,7 +89,9 @@ class Resume extends React.Component {
               }}>
                 
             <h2>Resume</h2>
-            <a href={resumePDF} download="carleen-thio-resume">Click to Download</a>
+            {/* <a className="a-left" href={cvPDF} download="carleen-thio-resume">Download CV</a> */}
+            <a href={resumePDF} download="carleen-thio-resume">Download Resume</a>
+            
             <Document file={resumePDF} onLoadSuccess={this.onDocumentLoadSuccess}>
               <Page
                 onLoadSuccess={this.onPageLoadSuccess}
@@ -96,12 +99,12 @@ class Resume extends React.Component {
                 scale={this.state.scale} />
             </Document>
             
-            <table className="button-table">
+            {/* <table className="button-table">
                 <tr>
                     <td><Button variant="secondary" onClick={this.handlePrevious}>Previous Page</Button></td>
                     <td><Button variant="secondary" onClick={this.handleNext}>Next Page</Button></td>
                 </tr>
-            </table>
+            </table> */}
             </div>
 
         );

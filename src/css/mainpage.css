@@ -134,7 +134,8 @@ body, html {
     .mainpage p{
         text-shadow: none;
     }
-    /* .made-by{
-    font-size: 8px;
-    } */
+    .made-by{
+    font-size: 12px;
+    }
+    
   }

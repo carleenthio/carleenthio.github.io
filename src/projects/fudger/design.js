@@ -20,56 +20,26 @@ function Design() {
 
            
                 
-                <h4> My Low-Fidelity Paper Prototype</h4>
-                <h5>The Paper Prototype</h5>
+                <h2> Design I: Low-Fidelity Paper Prototype</h2>
+                
                 <p>
                     While there are several necessary features we decided on. 
                     I added a couple more in my low-fidelity prototype such as: 
                     <ul>
-                        <li>
-                            Taking a picture of a receipt and have the bought items entered automatically into the inventory
-                            <div>
-                                <b>Reason:</b> Some people are too busy and/or lazy to input what they bought, especially if it’s a long list
-                            </div>
-                        </li>
-                        <li>
-                            Introduce a recipe finder that automatically removes used items from the inventory based on the recipe
-                            <div>
-                                <b>Reason:</b> Combat forgetfulness or laziness
-                            </div>
-                        </li>
-                        <li>
-                            Allow recipe finder to be used on specified products
-                            <div>
-                                <b>Reason:</b> Help use up expiring products
-                            </div>
-                        </li>
-                        <li>
-                            Allow grocery list to be organized into sublists
-                            <div>
-                                <b>Reason:</b> To reduce cognitive load and organize cooking ideas
-                            </div>
-                        </li>
-                        <li>
-                            Generate approximate dates for product expiration
-                            <div>
-                                <b>Reason:</b> Combat laziness and allow gentle reminders to use products 
-                            </div>
-                        </li>
-                        <li>
-                            Fact of the Day
-                            <div>
-                                <b>Reason:</b> Bring awareness of shopping habits and business tricks which
-                                usually lead to over-purchasing
-                            </div>
-                        </li>
+                        <li><p><strong>Automatic data entry</strong> by taking a picture of the receipt to combat busyness or laziness</p></li>
+                        <li><p><strong>Recipe finder</strong> that automatically removes used inventory items based on the recipe </p></li>
+                        <li><p><strong>Targeted recipe finder</strong> to find recipes containing the expiring product</p></li>
+                        <li><p><strong>Allow grocery sublists</strong> to reduce cognitive load and organize cooking ideas </p></li>
+                        <li><p><strong>Generate approximate expiry dates</strong> to combat laziness and allow gentle reminders to use products </p></li>
+                        <li><p><strong>Fact of the Day</strong> to bring awareness to shopping habits and business tricks which leads to over-purchasing </p></li>
+                    
                     </ul>
                 </p>
                 <img className='design-process' alt="The Inventory page of the paper prototype" src={paperInventory} width="70%"/>
                 <img className='design-process' alt="How to add items through the app" src={paperAdd} width="70%"/>
                 <img className='design-process' alt="The grocery page of the paper prototype" src={paperGrocery} width="70%"/>
                 
-                <h5>Result</h5>
+                <h4>Result</h4>
                 <p>
                     Below is one of the recorded test sessions.
                 </p>
@@ -103,7 +73,7 @@ function Design() {
                 </p>
                 
          
-            <h4>High-fidelity Prototype</h4>
+            <h2>Design II: High-fidelity Prototype</h2>
             <p>
                 At the end of the converging stage of the prototype, where the team looked at
                 what features to include, we designed the <strong>wireframe</strong>. And from there

@@ -44,35 +44,60 @@ class About extends React.Component {
                 <div class="parent">
                     <div class="div1"> 
                         <h3>Who am I?</h3>
-                        <p> <span className="details">Location:</span> Toronto, Canada </p>
-                        <p> <span className="details">Background:</span> A recent Cognitive Science and Linguistic graduate from the University of Toronto</p>
-                        <p>
-                            I've always enjoyed doing and trying out different things. This includes
-                            programming projects, along with several research projects 
-                            (one of them being a UX project).
+                        <p> 
+                            <span className="details">Location: </span> 
+                            Toronto, Canada 
                         </p>
+                        <span className="details">Background</span> 
+                        <p> 
+                            
+                            Recent Cognitive Science and Linguistic graduate (University of Toronto).
+                            Currently studying for a UX Design certificate (George Brown).
+                        </p>
+                            
                         <p>
-                        <span className="details">Goal:</span> I would love to be responsible and create enjoyable products for people 
-                            who want them. 
+                            I've always enjoyed learning and trying out different things. This includes
+                            programming projects, UX projects, and various hobbies.
+                        </p>
+                        
+                        <span className="details">Goal</span>
+                        <p>
+                         I would love to create enjoyable experiences for people 
+                         who want them by conducting research and test sessions.
                         </p>
                         <p> 
                             And I find that the best way to create that experience
                             is to understand the interactions between the user and the product.
-                            If I can make using a product easier or more effortless and enjoyable, 
-                            I consider that a job well done.
+                            
+                        </p>
+                        <span className="details">Interests</span> 
+                        <p>
+                            In my spare time, I'm either 
+                            teaching my <a target="_blank" href="https://www.instagram.com/my_conure_valkyrie/" rel="noopener noreferrer" >
+                               birds
+                            </a> or <a target="_blank" href="https://www.instagram.com/thatbunnyoliver/" rel="noopener noreferrer" >
+                                bunny
+                            </a> new tricks, inspecting my plants for bugs and disease or playing boardgames,
+                            specifically co-op and strategy ones (Though right now it's been exclusively online games).
+                            {/* simultaneously 
+                            watching a TV series while doing some craft hobbies. */}
                         </p>
                         <h3>Current Projects</h3>
                         <ul> 
-                            <li>Content writing for TypeMaster, Finland <span className="note">(Freelance) </span></li>
-                            <li>UX portfolio content writing <span className="note">(Freelance) </span></li>
-                            <li>Book editor <span className="note">(Freelance) </span></li>
-                            <li>Kallie: UX design project targeting the plant and trade community </li>
-                            <li>Web design for a blog on wordpress, hosted on DigitalOcean </li>
+                            {/* 
+                                <li>UX portfolio content writing <span className="note">(Freelance) </span></li>
+                                <li>Kallie: UX design project targeting the plant and trade community </li>
+                                <li> Web design for a blog on wordpress, hosted on DigitalOcean </li>
+                            */}
+
+                            <li> UX design <span className="note">(Freelance) </span></li>
+                            <li> Menu redesign for Thullus Cafe</li>
+                            <li> Plant propagation in preparation for spring sales</li>
+                            <li> Preliminary research for a bunny box </li>
                             <li>
                                 <a target="_blank" href="https://www.upwork.com/o/profiles/users/~0177013edc448c881d/" rel="noopener noreferrer" >
-                                 Other
-                                </a> 
-                                <span> freelancing work </span>     
+                                 Other freelancing work
+                                </a>  
                             </li>
                         </ul>
                         {/* <span class='show-small'>

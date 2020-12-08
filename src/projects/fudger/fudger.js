@@ -34,57 +34,51 @@ class Fudger extends React.Component {
                     </Link>
                     <h1>Füdger: A UX Research/Design Project</h1>
                     <br></br>
-                    <h2>Project Snapshot</h2>
-                    
+
+                    {/* <h2>Project Snapshot</h2> */}
+                    <div className="snapshot">
                     <div className="row">
                         <div className="column"><h4>The Problem</h4>
+                            <p>How can we help solve food waste problem at a consumer level?</p>
                             <p>
-                                Food waste is a global issue plaguing modern society by contributing to greenhouse gases.
-                                It happens throughout the stages of food provisioning - including planning, shopping, cooking, dealing with leftovers, and cleaning up.
-                                But it is a problem any individual can help mitigate.
+                            While we have waste disposal systems in place, there must be 
+                            a reason why we have so much waste in the first place.
+                            </p>
 
-                                While we have waste disposal systems in place, there must be a reason why we have so much waste
-                                in the first place.
-                            </p>
-                            
-                            <h4>Objective</h4>
-                            <p>
-                                To better understand and distinguish the different food provisioning stages to 
-                                identify a cause and design a solution that could help mitigate food waste.
-                            </p>
                             
                             <h4>The Solution</h4>
                             <p>
-                                A digital experience that helps users streamline their grocery shopping 
-                                experience by allowing them to track their food inventory, 
-                                effectively mitigating the over-purchasing of food items.
-                                Thus, reducing food waste.
+                                A digital experience that helps users streamline their grocery 
+                                shopping experience by allowing them to track their food inventory 
+                                and grocery list.
                             </p>
-
-                            <h4>Tools Used</h4>
+                            <p>This effectively mitigating the over-purchasing of food items.
+                                Thus, reducing food waste.</p>
+                            
+                            <h4>My Role</h4> 
+                            <p>UX research, Prototyping, Usability testing, QA/Editor</p>   
+                        </div>
+                        <div className="column2">  
+                        <h4>Tools Used</h4>
                             <p>Axure RP</p>
 
                             <h4>Project Length</h4>
                             <p>3.5 months</p>
+                            
+                            <h4>The Team</h4>
+                            <p>John Oabel</p>
+                            <p>Kyle Osborne</p>
+                            <p>Michael Le</p>
+                            <p>Pratyush Kanwar</p>
+                            <p>Yufeng Zhou</p>
+                           
                         </div>
-                        <div className="column2">  
-                            <Carousel/>
                         </div>
                     </div>
+                    <Carousel/>
                     <div className="row">
 
-                    <h4>My Role</h4>
-                    <p>This project was done with a team of 6 students from varying backgrounds. 
-                        We all participated in every stage of the process. 
-                        However, I was personally responsible for:
-                        <ul>
-                            <li> Conducting field-study research</li>
-                            <li> Integrating and writing most of the information in the usability study report, 
-                                specifically for the method, findings and implications section</li>
-                            <li> Editing majority of the reports to ensure conformity, flow, and readability</li>
-                            <li> Ensuring conformity in the prototype by checking alignments, fonts, and colours</li>
-                        </ul>
-                    </p>
+                    
                     
                     <h4>Scope and Constraints</h4>
                     <p>
@@ -99,22 +93,15 @@ class Fudger extends React.Component {
                         times, there were server issues that caused the pages to 
                         load improperly or very slowly. This resulted in some user confusion.
                     </p>
+                    <strong>Applied Skills</strong>
+                            <p>
+                            design thinking, ux research, 
+                            user interviews, user journey mapping, user stories, 
+                            task flow, wireframing, prototyping, 
+                            usability testing, proofreading, editing
+                            </p>
                     </div>
                     <hr/>
-
-                    <h2>Design Process</h2>
-                
-                    {/* <div display="block" text-align="center"> */}
-                        <img className='design-process' alt='double diamond process' src={diamond} width="60%"/>
-                    {/* </div> */}
-                    <p> We used the <strong> Double Diamond </strong> design process on this project. 
-                        This design process consists of diverging and converging ideas to get 
-                        to a solution at four stages: discover, define, develop, and deliver. 
-                        Below are the methods we used at each stage.</p>
-
-                        <img className='design-process' alt='In-depth four stage double diamon process' src={design} width="90%"/>
-                       
-                     {/* <ControlledTabs /> */}
                    
                 
                 <h3> Discovery</h3>

@@ -13,10 +13,11 @@ import resume from './components/resume'
 import Writing from './components/writing'
 // Projects
 import Fudger from './projects/fudger/fudger'
+// import Fudger from './projects/fudger2.js'
 import BrickBreaker from './projects/brick-breaker'
 import LanLearn from './projects/language-learning'
 import Kallie from './projects/kallie'
-
+import UIcompilation from './projects/UI'
 //Writing
 import uxWrite from './writing/ux-writing'
 import ostara from './writing/ostara'
@@ -48,6 +49,7 @@ class Main extends React.Component {
               <Route path="/kallie" component={Kallie} />
               <Route path="/brick-breaker" component={BrickBreaker} />
               <Route path="/language-learning" component={LanLearn} />
+              <Route path="/ui" component={UIcompilation} />
               <Route path="/ux-writing" component={uxWrite}/>
               <Route path="/ostara" component={ostara}/>
               <Route path="/thesis" component={Thesis}/>

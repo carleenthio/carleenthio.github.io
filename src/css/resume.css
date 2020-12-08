@@ -31,7 +31,9 @@
     width: 0px;
     height: 10px;
 }
-
+.resume .a-left{
+    text-align: left;
+}
 /* .top, .bottom, .left, .right {
     position: fixed;
     background: #769FCA;

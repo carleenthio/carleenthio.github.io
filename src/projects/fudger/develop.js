@@ -8,55 +8,30 @@ function Develop() {
                 Since this project concentrated on the design process, we did not go 
                 deep into the development stage as this would require the prototype 
                 to be built. However, we did not ignore it completely. We briefly 
-                ran through what would happen at this stage and also worked on a 
-                heuristic review of developing the product.
+                ran through what would happen at this stage and worked on the 
+                heuristic review.
             </p>
                 
-            <p>
+            {/* <p>
                 This stage involved identifying problems at each screen and
                 assigning a severity rating of the heuristic it failed to meet, 
                 as well as providing recommendations to fix it.
-            </p>
+            </p> */}
             <p>
-                For this project, we used Nielsen's usability heuristics, which involves:
-                <ol>
-                    <li>
-                        Visibility of system status
-                    </li>
-                    <li>
-                        Match between system and real world
-                    </li>
-                    <li>
-                        User control and freedom
-                    </li>
-                    <li>
-                        Consistency and standards
-                    </li>
-                    <li>
-                        Error prevention
-                    </li>
-                    <li>
-                        Recognition rather than recall
-                    </li>
-                    <li>
-                        Flexibility and efficiency of use
-                    </li>
-                    <li>
-                        Aesthetic and minimalist design
-                    </li>
-                    <li>
-                        Help users recognize, diagnose, and recover from errors
-                    </li>
-                    <li>
-                    Help and documentation
-                    </li>
-                </ol>
+                For this project, we used Nielsen's usability heuristics.
+                The most violation was found in the homepage and grocery page.
             </p>
-            
-            <p>
+            {/* <p>
+                It included problems such as:
+                <br></br>
+                - Adding new list button while creating a new list can be confused as adding item to current list.
+                <br></br>
+                -
+            </p> */}
+            {/* <p>
                 We did the heuristic evaluation individually first before combining it
                 into one. We found the most violation in the homepage and grocery page.
-            </p>
+            </p> */}
         </div>
     )
 }

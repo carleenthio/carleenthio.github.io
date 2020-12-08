@@ -7,6 +7,7 @@ import r2 from '../pictures/reviews/r2.png'
 import r3 from '../pictures/reviews/r3.png'
 import r4 from '../pictures/reviews/r4.png'
 import r5 from '../pictures/reviews/r5.png'
+import r6 from '../pictures/reviews/r6.png'
 import {faChevronDoubleDown} from "@fortawesome/pro-duotone-svg-icons"
 class Mainpage extends React.Component {
   render() {
@@ -45,10 +46,10 @@ class Mainpage extends React.Component {
         <h2>Client Reviews</h2>
         
         <div className="reviews">
-          <div className='writing-reviews'> <img  alt='review from editing book' src={r1}/></div>
+          <div className='writing-reviews'> <img  alt='review from editing book' src={r6}/></div>
           <div className='writing-reviews'> <img alt='review from editing book' src={r2}/></div>
-          <div className='writing-reviews'> <img  alt='review from editing book' src={r3}/></div>
-          <div className='writing-reviews'> <img className='writing-reviews'src={r5}/></div>
+          <div className='writing-reviews'> <img  alt='review from editing book' src={r5}/></div>
+          <div className='writing-reviews'> <img className='writing-reviews'src={r1}/></div>
         </div>
         </div>
       </div>

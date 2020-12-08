@@ -7,7 +7,7 @@ import brick from '../pictures/brick-breaker.jpg'
 import lang from '../pictures/language.jpg'
 import fudger from '../pictures/fudger/axure.jpg'
 import kallie from '../pictures/kallie/kallie-icon.png'
-
+import ui from '../pictures/card.png'
 class Projects extends React.Component {
 	render() {
 		return (
@@ -28,12 +28,20 @@ class Projects extends React.Component {
 							at the consumer level
 						</p>
 					</Link>
+					<Link to="/UI" className="nav-grid"> 
+						<img className='img-grid' alt='Brick breaker logo' src={ui}/>
+						UI/UX Compilation
+						<hr></hr>
+						<p className="project-info" >
+							UI and UX are not the same. So here's a compiled UI-focused projects.
+						</p>
+					</Link>
 					<Link to="/brick-breaker" className="nav-grid"> 
 						<img className='img-grid' alt='Brick breaker logo' src={brick}/>
 						Block Breaker: A Shot at Game Development
 						<hr></hr>
 						<p className="project-info" >
-							Hands on deck! Trying out Unity 
+							All hands on deck! My try with Unity 
 						</p>
 					</Link>
 					<Link to="/kallie" className="nav-grid">
@@ -41,19 +49,16 @@ class Projects extends React.Component {
 						[WIP] Kallie: UX Research & Design 
 						<hr></hr>
 						<p className="project-info">
-							An update to the conventional calendars by reducing users'
+							An updated calendars that reduces users'
 							cognitive load
 						</p>
-					</Link>
-					<Link to="/" className="nav-grid" className="fake-grid">
-						
 					</Link>
 					<Link to="/language-learning" className="nav-grid">
 						<img className='img-grid' alt='Language learning logo' src={lang}/>
 						Language Learning Strategized! 
 						<hr></hr>
 						<p className="project-info" >
-							A look into an alternative language learning tactic 
+							A research project into an alternative language learning tactic 
 							based on proficieny level
 						</p>
 					</Link>

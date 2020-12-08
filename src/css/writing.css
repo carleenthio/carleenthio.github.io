@@ -34,7 +34,6 @@
 .writing-button{
     border: 1px solid #979696;
     background-color:white;
-    background: white;
     padding: 7px 30px 7px 30px;
     text-align: center;
     text-decoration: none;
@@ -47,7 +46,6 @@
 .writing-button:hover{
     background-color: black;
     color: white;
-    
 } 
 .writing-project-left{
     margin: auto;
